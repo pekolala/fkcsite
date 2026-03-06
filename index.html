@@ -1286,8 +1286,8 @@
                     FKC3つの強み
                 </h2>
                 <div class="case-grid">
-                    <div class="case-card"
-                        style="border-left: none; text-align: center; border-bottom: 6px solid var(--secondary-color);">
+                    <div class="case-card target-item"
+                        style="border-left: none; text-align: center; border-bottom: 6px solid var(--secondary-color); transition: all 0.3s ease;">
                         <div style="margin-bottom: 20px;">
                             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
                                 fill="none" stroke="var(--secondary-color)" stroke-width="2" stroke-linecap="round"
@@ -1299,6 +1299,32 @@
                         <h2 style="margin-bottom: 15px; color: var(--secondary-color);">プロ家庭教師による<br>質の高い指導</h2>
                         <p style="font-size: 0.95rem; text-align: left;">経験豊富なプロ家庭教師が、お子様の理解度に合わせて「わかる」まで丁寧に指導します。📝
                         </p>
+                        <a href="javascript:void(0)" class="details-btn" data-label="プロ家庭教師とは">プロ家庭教師とは</a>
+                        <div class="accordion-content">
+                            <div class="accordion-text-box">
+                                <p
+                                    style="font-weight: 700; color: var(--secondary-color); text-align: center; margin-bottom: 20px;">
+                                    〜単なる「教え上手」ではない、結果にこだわるプロフェッショナル〜</p>
+                                <p>「プロ家庭教師」と「学生アルバイト教師」の最大の違いは、指導を<strong>「職業」</strong>として取り組んでいるかどうかにあります。</p>
+
+                                <h4>■ 圧倒的な経験値と実績</h4>
+                                <p>プロと呼ばれる教師は、これまでに数百人、数千時間の指導経験を積んでいます。どのようなタイプのお子様であっても、どこでつまずいているかを瞬時に見抜き、最適なアプローチを提示することができます。
+                                </p>
+
+                                <h4>■ 結果に対する強い責任感</h4>
+                                <p>学生のように「卒業まで」といった期限がありません。お子様の合格を自らの仕事の成果として捉え、妥協のない指導を行います。</p>
+
+                                <h4>■ 最新の入試情報と戦略</h4>
+                                <p>三条・燕・加茂エリアの入試傾向は毎年変化します。プロ教師は常に最新の情報を更新し、「今、どの単元を優先すべきか」を正確に判断します。</p>
+
+                                <h4>■ 高い人間性とマナー</h4>
+                                <p>FKCでは、学力テストだけでなく厳しい面接を行い、礼儀、言葉遣い、そして「お子様の可能性を信じる人間性」を兼ね備えた人物のみを採用しています。</p>
+
+                                <div class="details-btn-bottom">
+                                    <a href="javascript:void(0)" class="details-btn">詳細を閉じる</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="case-card"
                         style="border-left: none; text-align: center; border-bottom: 6px solid var(--primary-color);">
@@ -2087,7 +2113,11 @@
 
                     // 同一項目内の全ボタンのテキストを同期
                     item.querySelectorAll('.details-btn').forEach(btn => {
-                        btn.textContent = isActive ? '詳細を閉じる' : '詳細を見る';
+                        if (isActive) {
+                            btn.textContent = '詳細を閉じる';
+                        } else {
+                            btn.textContent = btn.getAttribute('data-label') || '詳細を見る';
+                        }
                     });
 
                     // 閉じたときに項目が画面外に出ていたらスクロールで戻す
