@@ -1184,7 +1184,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="hero.png" alt="家庭教師の指導イメージ" class="hero-image">
+                <img src="hero_v2.jpg" alt="家庭教師の指導イメージ" class="hero-image">
             </div>
         </section>
 
@@ -2037,6 +2037,12 @@
     </div>
 
     <script>
+        // ページ読み込み時に常に先頭から表示するための設定
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+
         document.addEventListener('DOMContentLoaded', function () {
             // Smooth scroll for anchor links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
