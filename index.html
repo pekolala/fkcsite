@@ -520,15 +520,27 @@
             border-top: 4px solid var(--primary-color);
         }
 
-        .teacher-icon {
-            font-size: 3rem;
-            margin-bottom: 16px;
-            background: #FFF3E0;
-            width: 80px;
-            height: 80px;
-            line-height: 80px;
+        .teacher-icon,
+        .teacher-image {
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             margin: 0 auto 16px;
+            overflow: hidden;
+            border: 3px solid #FFF3E0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .teacher-icon {
+            font-size: 3rem;
+            line-height: 100px;
+            background: #FFF3E0;
+        }
+
+        .teacher-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .teacher-tag {
@@ -1411,7 +1423,9 @@
                     学力はもちろん、人間性やマナーを兼ね備えた<br>厳格な採用基準をクリアしたプロのみが指導します。</p>
                 <div class="teacher-grid">
                     <div class="teacher-card">
-                        <div class="teacher-icon">👨‍🏫</div>
+                        <div class="teacher-image">
+                            <img src="ishizuki.png" alt="石附 先生">
+                        </div>
                         <div class="teacher-tag">数学・理科担当</div>
                         <h3 class="teacher-name">石附 先生</h3>
                         <div class="teacher-info">
