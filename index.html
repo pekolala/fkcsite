@@ -515,12 +515,15 @@
             border-radius: 12px;
             box-shadow: var(--shadow);
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            border-top: 4px solid var(--primary-color);
         }
 
         .teacher-icon {
             font-size: 3rem;
             margin-bottom: 16px;
-            background: #E8EAF6;
+            background: #FFF3E0;
             width: 80px;
             height: 80px;
             line-height: 80px;
@@ -528,18 +531,56 @@
             margin: 0 auto 16px;
         }
 
-        .teacher-name {
-            font-size: 1.1rem;
-            color: var(--secondary-color);
-            margin-bottom: 12px;
+        .teacher-tag {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: var(--white);
+            font-size: 0.8rem;
+            padding: 2px 12px;
+            border-radius: 20px;
+            margin-bottom: 8px;
+            align-self: center;
             font-weight: 700;
+        }
+
+        .teacher-name {
+            font-size: 1.4rem;
+            color: var(--secondary-color);
+            margin-bottom: 16px;
+            font-weight: 900;
+        }
+
+        .teacher-info {
+            text-align: left;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            font-size: 0.9rem;
+        }
+
+        .info-item {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-item strong {
+            color: var(--secondary-color);
+            display: inline-block;
+            min-width: 80px;
         }
 
         .teacher-desc {
             font-size: 0.95rem;
             text-align: left;
             line-height: 1.6;
-            color: #555;
+            color: #444;
+            border-top: 1px dashed var(--gray-light);
+            padding-top: 16px;
         }
 
         .testimonial-card {
@@ -1371,13 +1412,30 @@
                 <div class="teacher-grid">
                     <div class="teacher-card">
                         <div class="teacher-icon">👨‍🏫</div>
-                        <h3 class="teacher-name">プロ家庭教師歴10年のベテラン</h3>
-                        <p class="teacher-desc">「苦手な数学を根本から理解させ、得意科目に変える」指導スタイル。数多くの逆転合格をサポートしてきました。</p>
+                        <div class="teacher-tag">数学・理科担当</div>
+                        <h3 class="teacher-name">石附 先生</h3>
+                        <div class="teacher-info">
+                            <div class="info-item"><strong>指導歴：</strong>10年以上</div>
+                            <div class="info-item"><strong>得意科目：</strong>数学・理科</div>
+                            <div class="info-item"><strong>合格実績：</strong>三条高校／巻高校／三条東高校／新潟大学ほか</div>
+                        </div>
+                        <p class="teacher-desc">
+                            「苦手な数学を根本から理解させ得意科目に変える」指導スタイル。基礎から丁寧に説明する授業を心がけています。「わかる」だけでなく「自分で解ける」ようになるまで、一人ひとりのペースに合わせて指導します。
+                        </p>
                     </div>
+
                     <div class="teacher-card">
                         <div class="teacher-icon">👩‍🏫</div>
-                        <h3 class="teacher-name">新潟大学在籍の理系教師</h3>
-                        <p class="teacher-desc">年齢が近く話しやすいと定評。生徒の目線に立ち、つまずきやすいポイントを丁寧に解説します。</p>
+                        <div class="teacher-tag">担当科目（予定）</div>
+                        <h3 class="teacher-name">新任 先生</h3>
+                        <div class="teacher-info">
+                            <div class="info-item"><strong>指導歴：</strong>準備中</div>
+                            <div class="info-item"><strong>得意科目：</strong>準備中</div>
+                            <div class="info-item"><strong>合格実績：</strong>準備中</div>
+                        </div>
+                        <p class="teacher-desc">
+                            新任の先生をご紹介予定です。まもなく詳細を公開いたします。一人ひとりに寄り添った親切な指導をお約束します。
+                        </p>
                     </div>
                 </div>
             </div>
@@ -1428,7 +1486,7 @@
                                 <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
                             </svg>
                         </div>
-                        <div class="case-title">勉強のコツがわかったら<br>自ら進んで勉強するようになりました</div>
+                        <div class="case-title">勉強のコツがわかったら楽しいらしく<br>自ら進んで勉強するようになりました</div>
                     </div>
                 </div>
             </div>
