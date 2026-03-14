@@ -791,21 +791,34 @@
 
         .details-btn {
             display: inline-block;
+            margin-top: 10px;
+            font-size: 0.85rem;
+            color: var(--secondary-color);
+            text-decoration: underline;
+            font-weight: 700;
+            cursor: pointer;
+            position: relative;
+            z-index: 10;
+            background: none;
+            border: none;
+            padding: 0;
+        }
+
+        .target-list .details-btn {
             background: var(--primary-color);
             color: var(--white);
             padding: 8px 24px;
             border-radius: 30px;
             font-size: 0.95rem;
-            font-weight: 700;
             text-decoration: none;
             box-shadow: 0 4px 10px rgba(245, 124, 0, 0.2);
             transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
+            margin-top: 0;
         }
 
-        .details-btn:hover {
+        .target-list .details-btn:hover {
             background: #e65100;
+            color: var(--white);
             transform: translateY(-2px);
             box-shadow: 0 6px 15px rgba(245, 124, 0, 0.3);
         }
