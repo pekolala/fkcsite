@@ -340,6 +340,47 @@
         }
 
         /* ==========================================================================
+           Hero Slideshow
+           ========================================================================== */
+        .hero-slideshow {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto 32px auto;
+            border-radius: 16px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            display: flex;
+        }
+
+        .hero-slide {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+        }
+
+        .slide-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            animation: heroFadePulse 8s infinite alternate;
+        }
+
+        @keyframes heroFadePulse {
+
+            0%,
+            35% {
+                opacity: 0;
+            }
+
+            65%,
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* ==========================================================================
            Service Area Section
            ========================================================================== */
         .area-box {
@@ -1210,17 +1251,12 @@
         <!-- First View -->
         <section class="hero reveal">
             <div class="container hero-flex">
-                <div class="hero-content">
-                    <span class="badge">三条・燕・加茂エリア専門プロ家庭教師</span>
-                    <h1>プロ家庭教師で<br>志望校合格へ</h1>
-                    <p class="hero-sub">
-                        <strong>勉強のやり方がわかると、<br>
-                            テストの点は変わります。<br>
-                            「あなただけのプロ家庭教師」<br>
-                        </strong><br>
-                        一人ひとりに合わせて丁寧に指導します
-                    </p>
-                    <div class="hero-cta">
+                <div class="hero-content" style="width: 100%; max-width: 800px;">
+                    <div class="hero-slideshow">
+                        <img src="slide1.jpg" class="hero-slide slide-base" alt="塾に通っても成績が上がらないお子様へ">
+                        <img src="slide2.jpg" class="hero-slide slide-overlay" alt="勉強のやり方がわかるとテストの点は上がります">
+                    </div>
+                    <div class="hero-cta" style="max-width: 600px; margin: 0 auto;">
                         <div class="btn-group">
                             <span class="micro-copy">＼無理な勧誘は一切ありません／</span>
                             <a href="#contact" class="btn btn-primary">無料体験を予約する</a>
@@ -1240,7 +1276,6 @@
                         </div>
                     </div>
                 </div>
-                <img src="hero_v2.jpg" alt="家庭教師の指導イメージ" class="hero-image">
             </div>
         </section>
 
