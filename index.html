@@ -47,12 +47,13 @@
         }
 
         .hero-title-main {
-            font-size: 1.5rem !important;
+            font-size: 1.35rem !important;
+            /* 1行に収めるためわずかに縮小 (1.5rem -> 1.35rem) */
             color: var(--secondary-color) !important;
             line-height: 1.4 !important;
             background: rgba(255, 255, 255, 0.85);
-            /* 視認性向上のための背景色 */
-            padding: 10px 15px !important;
+            padding: 8px 12px !important;
+            /* 余白を微調整 */
             border-radius: 8px;
             display: inline-block;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -60,7 +61,8 @@
             margin-bottom: 12px !important;
             margin-top: 0 !important;
             border-left: 5px solid var(--primary-color);
-            /* アクセント */
+            white-space: nowrap;
+            /* 改行を禁止 */
         }
 
         .hero-title-main span {
@@ -134,6 +136,8 @@
 
             .hero-title-main {
                 font-size: 2.8rem !important;
+                padding: 15px 25px !important;
+                /* PCでは少しゆったりさせる */
             }
 
             .hero-title-main span {
