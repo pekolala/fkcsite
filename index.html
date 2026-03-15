@@ -80,17 +80,22 @@
             font-weight: 700;
             line-height: 1.4;
             background: rgba(255, 255, 255, 0.6);
-            padding: 5px 8px;
+            padding: 5px 12px;
             display: inline-block;
             border-radius: 4px;
             text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+            margin-bottom: 8px;
+            /* ボタンとの隙間 */
         }
 
         .hero-bottom-center {
             width: 100%;
             display: flex;
+            flex-direction: column;
+            /* 縦に並べる */
+            align-items: center;
             justify-content: center;
-            padding-bottom: 10px;
+            padding-bottom: 15px;
             pointer-events: auto;
         }
 
@@ -147,6 +152,7 @@
             .hero-sub-copy {
                 font-size: 1.4rem;
                 padding: 10px 20px;
+                margin-bottom: 15px;
             }
 
             .hero-btn-overlay {
@@ -1443,12 +1449,12 @@
                                     <span>燕・三条・加茂エリアのプロ家庭教師</span>
                                     フジタ家庭教師センター
                                 </h1>
+                            </div>
+                            <div class="hero-bottom-center">
                                 <p class="hero-sub-copy">
                                     完全マンツーマン指導で<br>
                                     成績アップをサポート
                                 </p>
-                            </div>
-                            <div class="hero-bottom-center">
                                 <a href="#contact" class="hero-btn-overlay">無料体験授業はこちら</a>
                             </div>
                         </div>
