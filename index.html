@@ -837,17 +837,27 @@
 
         .case-card {
             background: var(--white);
-            padding: 24px;
+            padding: 16px 20px;
+            /* 余白を削って高さを抑える */
             border-radius: 12px;
             box-shadow: var(--shadow);
             border-left: 6px solid var(--primary-color);
+            display: flex;
+            /* 横並び */
+            align-items: flex-start;
+            gap: 15px;
+        }
+
+        .case-content {
+            flex: 1;
         }
 
         .case-title {
             font-weight: 700;
             font-size: 0.9rem;
-            margin-bottom: 8px;
+            margin-bottom: 4px;
             color: var(--primary-color);
+            line-height: 1.4;
         }
 
         .case-body {
@@ -858,30 +868,31 @@
         }
 
         .case-highlight {
-            display: block;
-            font-size: 1.4rem;
+            display: inline-block;
+            /* blockから変更して高さを詰めやすく */
+            font-size: 1.25rem;
             font-weight: 900;
             color: var(--secondary-color);
-            margin-top: 5px;
+            margin: 2px 0;
         }
 
         .case-author {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             color: #777;
             text-align: right;
-            margin-top: 12px;
+            margin-top: 5px;
             font-weight: normal;
         }
 
         .case-icon-bg {
             background: #fff5f2;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 15px;
+            flex-shrink: 0;
             color: var(--primary-color);
         }
 
@@ -1692,40 +1703,43 @@
                     <!-- 事例1 -->
                     <div class="case-card">
                         <div class="case-icon-bg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
                                 stroke-linejoin="round">
                                 <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
                                 <polyline points="17 6 23 6 23 12"></polyline>
                             </svg>
                         </div>
-                        <div class="case-body">
-                            1学期の平均点 55点から、<br>2学期のテストで
-                            <span class="case-highlight">80点に到達！</span>
+                        <div class="case-content">
+                            <div class="case-body">
+                                1学期平均55点から、2学期で
+                                <span class="case-highlight">80点に到達！</span>
+                            </div>
+                            <div class="case-author">（燕市中学1年）</div>
                         </div>
-                        <div class="case-author">（燕市中学1年）</div>
                     </div>
                     <!-- 事例2 -->
                     <div class="case-card">
                         <div class="case-icon-bg" style="background: #f0f7ff; color: var(--secondary-color);">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
                                 stroke-linejoin="round">
                                 <line x1="12" y1="20" x2="12" y2="4"></line>
                                 <polyline points="6 10 12 4 18 10"></polyline>
                             </svg>
                         </div>
-                        <div class="case-body">
-                            苦手科目の数学、開始後のテストで
-                            <span class="case-highlight">30点アップ！</span>
-                            今では得意科目に。
+                        <div class="case-content">
+                            <div class="case-body">
+                                苦手な数学、開始後のテストで
+                                <span class="case-highlight">30点アップ！</span>
+                            </div>
+                            <div class="case-author">（三条市中学2年）</div>
                         </div>
-                        <div class="case-author">（三条市中学2年）</div>
                     </div>
                     <!-- 事例3 -->
                     <div class="case-card">
                         <div class="case-icon-bg" style="background: #f0fff4; color: #4CAF50;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
                                 stroke-linejoin="round">
                                 <path
@@ -1733,12 +1747,14 @@
                                 </path>
                             </svg>
                         </div>
-                        <div class="case-body">
-                            勉強のコツがわかったら楽しいらしく、
-                            <span class="case-highlight" style="color: #2E7D32;">自ら進んで勉強</span>
-                            するようになりました。
+                        <div class="case-content">
+                            <div class="case-body">
+                                勉強のコツを掴み
+                                <span class="case-highlight" style="color: #2E7D32;">自ら進んで勉強</span>
+                                するように！
+                            </div>
+                            <div class="case-author">（加茂市中学3年保護者様）</div>
                         </div>
-                        <div class="case-author">（加茂市中学3年保護者様）</div>
                     </div>
                 </div>
             </div>
