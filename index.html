@@ -184,8 +184,8 @@
             --container-max: 1100px;
             --line-height: 1.8;
             /* 行間を少し広げて読みやすく */
-            --section-padding: 80px;
-            /* セクション間の余白を広げて洗練された印象に */
+            --section-padding: 50px;
+            /* セクション間の余白を調整 */
         }
 
         /* ==========================================================================
@@ -244,6 +244,13 @@
         section {
             padding: var(--section-padding) 0;
             background-color: var(--white);
+        }
+
+        /* モバイルでは余白をさらに狭く */
+        @media (max-width: 767px) {
+            section {
+                padding: 30px 0;
+            }
         }
 
         section:nth-child(even) {
@@ -599,7 +606,7 @@
            ========================================================================== */
         .section-title {
             text-align: center;
-            margin-bottom: 48px;
+            margin-bottom: 32px;
             font-size: 1.75rem;
             color: var(--secondary-color);
             position: relative;
@@ -620,8 +627,8 @@
 
         .section-subtitle {
             text-align: left;
-            margin-top: -36px;
-            margin-bottom: 48px;
+            margin-top: -24px;
+            margin-bottom: 32px;
             font-size: 1.125rem;
             color: #666;
             max-width: 700px;
