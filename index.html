@@ -126,9 +126,15 @@
         #study-method a.btn-primary,
         #flow a.btn-primary,
         #contact a.btn-primary,
-        #contact .btn-secondary,
         .details-btn {
             animation: pulse-orange 2s infinite !important;
+        }
+
+        /* 電話番号ボタンなど（青系）のアニメーション */
+        .cta-tel,
+        .btn-secondary,
+        .floating-cta-pc .btn-secondary {
+            animation: pulse-blue 2s infinite !important;
         }
 
         @keyframes pulse-orange {
@@ -142,6 +148,20 @@
 
             100% {
                 box-shadow: 0 0 0 0 rgba(245, 124, 0, 0);
+            }
+        }
+
+        @keyframes pulse-blue {
+            0% {
+                box-shadow: 0 0 0 0 rgba(13, 71, 161, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(13, 71, 161, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(13, 71, 161, 0);
             }
         }
 
