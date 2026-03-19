@@ -111,10 +111,19 @@
             border-radius: 50px !important;
             font-weight: 900 !important;
             font-size: 1rem !important;
-            box-shadow: 0 4px 15px rgba(245, 124, 0, 0.5) !important;
+            box-shadow: 0 4px 15px rgba(245, 124, 0, 0.5);
             text-decoration: none !important;
-            animation: pulse-orange 2s infinite;
             display: inline-block;
+            pointer-events: auto;
+        }
+
+        /* 蛍のように光を放つアニメーションの一括適用 */
+        .hero-btn-overlay,
+        .cta-trial,
+        .btn-ripple,
+        .floating-cta-pc .btn-primary,
+        #message a.btn-primary {
+            animation: pulse-orange 2s infinite !important;
         }
 
         @keyframes pulse-orange {
@@ -1308,6 +1317,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            animation: pulse-orange 2s infinite;
         }
 
         /* ==========================================================================
