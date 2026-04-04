@@ -11,7 +11,7 @@ export default function RootLayout({
   const content = fs.readFileSync(filePath, 'utf-8');
 
   // Extract all style tag contents from the original HTML
-  const styleMatches = [...content.matchAll(/<style>(.*?)<\/style>/si)];
+  const styleMatches = [...content.matchAll(/<style>([\s\S]*?)<\/style>/gi)];
   const combinedStyles = styleMatches.map(m => m[1]).join('\n');
 
   return (

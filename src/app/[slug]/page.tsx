@@ -23,7 +23,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
   const content = fs.readFileSync(filePath, 'utf-8');
 
   // Extract body content
-  const bodyMatch = content.match(/<body[^>]*>(.*?)<\/body>/si);
+  const bodyMatch = content.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
   const bodyHtml = bodyMatch ? bodyMatch[1] : content;
 
   return (
