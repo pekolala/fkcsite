@@ -1,5 +1,51 @@
 import fs from 'fs';
 import path from 'path';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const { slug } = params;
+  const filePath = path.join(process.cwd(), 'src', 'app', `${slug}.source.html`);
+  
+  if (!fs.existsSync(filePath)) {
+    return { title: 'Page Not Found' };
+  }
+  
+  const content = fs.readFileSync(filePath, 'utf-8');
+  const titleMatch = content.match(/<title>([\s\S]*?)<\/title>/i);
+  const title = titleMatch ? titleMatch[1] : 'フジタ家庭教師センター';
+  
+  const descMatch = content.match(/<meta name="description" content="([^"]*)"/i);
+  const description = descMatch ? descMatch[1] : '三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。';
+
+  return {
+    title: `${title} | フジタ家庭教師センター`,
+    description,
+    alternates: {
+      canonical: `https://fujita-kc.com/${slug}`,
+    },
+    openGraph: {
+      title: `${title} | フジタ家庭教師センター`,
+      description,
+      url: `https://fujita-kc.com/${slug}`,
+      siteName: 'フジタ家庭教師センター',
+      images: [
+        {
+          url: 'https://fujita-kc.com/logo.png',
+          width: 1200,
+          height: 630,
+        },
+      ],
+      locale: 'ja_JP',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${title} | フジタ家庭教師センター`,
+      description,
+      images: ['https://fujita-kc.com/logo.png'],
+    },
+  };
+}
 
 export async function generateStaticParams() {
   const dir = path.join(process.cwd(), 'src', 'app');

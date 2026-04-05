@@ -1,0 +1,2928 @@
+4:I[9275,[],""]
+5:I[1343,[],""]
+2:T195df,
+
+    <header
+        style="height: auto; min-height: 80px; padding: 12px 0; background-color: #fdf2e9; border-bottom: 2px solid var(--primary-color);">
+        <div class="container header-content" style="flex-direction: column; justify-content: center; gap: 8px;">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="FKCロゴ" style="height: 40px; margin-right: 4px;" fetchpriority="high">
+                <span class="logo-text"
+                    style="font-size: 1.6rem; letter-spacing: 0; white-space: normal; text-align: center; line-height: 1.2; overflow: visible;">フジタ家庭教師センター</span>
+            </a>
+            <div class="header-contact"
+                style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; justify-content:center;">
+                <span
+                    style="font-size:0.85rem; color:var(--secondary-color); font-weight:700; text-align:right;">新潟県燕市新生町102</span>
+                <a href="tel:0120778635" class="header-tel" style="font-size: 1.2rem;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.27-2.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                        </path>
+                    </svg>
+                    <span>0120-77-8635</span>
+                </a>
+                <a href="#contact" class="header-btn">無料体験予約</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- First View -->
+        <section class="hero reveal">
+            <div class="container hero-flex">
+                <div class="hero-content" style="width: 100%; max-width: 800px; position: relative;">
+                    <div class="hero-slideshow">
+                        <img src="slide2.png" class="hero-slide slide-base" alt="塾に通っても成績が上がらないお子様へ"
+                            fetchpriority="high">
+                        <img src="slide1.png" class="hero-slide slide-overlay" alt="勉強のやり方がわかるとテストの点は上がります"
+                            fetchpriority="high">
+
+                        <!-- 画像に重ねるコンテンツ -->
+                        <div class="hero-text-overlay">
+                            <div class="hero-top-left">
+                                <span class="hero-badge-small">高額教材販売なし・営業なし</span>
+                                <h1 class="hero-title-main">
+                                    <span>燕・三条・加茂エリアのプロ家庭教師</span>
+                                    フジタ家庭教師センター
+                                </h1>
+                            </div>
+                            <div class="hero-bottom-center">
+                                <p class="hero-sub-copy">
+                                    完全マンツーマン指導で<br>
+                                    成績アップをサポート
+                                </p>
+                                <a href="tel:0120778635" class="hero-btn-overlay">無料体験を予約する</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 既存のCTAボタン（スライド外）も予備として保持するか、非表示にする。
+                         今回はスライド内に集約したため、下のボタン群は削除または調整 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Concerns -->
+        <section id="concerns" class="reveal" style="background-color: var(--bg-color); padding: 40px 0;">
+            <div class="container">
+                <h2 class="section-title" style="margin-bottom: 32px;">
+                    こんなお悩み<br>ありませんか？
+                </h2>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="concerns-grid"
+                        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px;">
+                        <div class="concern-card"
+                            style="background: var(--white); padding: 12px 20px; border-radius: 12px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 16px; border-left: 5px solid var(--primary-color); transition: transform 0.3s ease;">
+                            <div
+                                style="width: 40px; height: 40px; background: #fff5f2; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--primary-color); flex-shrink: 0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                                </svg>
+                            </div>
+                            <span
+                                style="font-size: 1rem; font-weight: 700; color: var(--text-color);">勉強のやり方がわからない</span>
+                        </div>
+                        <div class="concern-card"
+                            style="background: var(--white); padding: 12px 20px; border-radius: 12px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 16px; border-left: 5px solid var(--secondary-color); transition: transform 0.3s ease;">
+                            <div
+                                style="width: 40px; height: 40px; background: #f0f7ff; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--secondary-color); flex-shrink: 0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="23 18 13.5 8.5 8.5 13.5 1 6" />
+                                    <polyline points="17 18 23 18 23 12" />
+                                </svg>
+                            </div>
+                            <span
+                                style="font-size: 1rem; font-weight: 700; color: var(--text-color);">テストの点がなかなか上がらない</span>
+                        </div>
+                        <div class="concern-card"
+                            style="background: var(--white); padding: 12px 20px; border-radius: 12px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 16px; border-left: 5px solid #4CAF50; transition: transform 0.3s ease;">
+                            <div
+                                style="width: 40px; height: 40px; background: #f0fff4; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #4CAF50; flex-shrink: 0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                    <polyline points="9 22 9 12 15 12 15 22" />
+                                </svg>
+                            </div>
+                            <span
+                                style="font-size: 1rem; font-weight: 700; color: var(--text-color);">家で勉強する習慣がない</span>
+                        </div>
+                        <div class="concern-card"
+                            style="background: var(--white); padding: 12px 20px; border-radius: 12px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 16px; border-left: 5px solid #e91e63; transition: transform 0.3s ease;">
+                            <div
+                                style="width: 40px; height: 40px; background: #fff0f5; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #e91e63; flex-shrink: 0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <rect x="3" y="2" width="18" height="20" rx="2" />
+                                    <path d="M9 22v-4h6v4" />
+                                    <path d="M8 6h.01" />
+                                    <path d="M16 6h.01" />
+                                    <path d="M8 10h.01" />
+                                    <path d="M16 10h.01" />
+                                    <path d="M8 14h.01" />
+                                    <path d="M16 14h.01" />
+                                </svg>
+                            </div>
+                            <span
+                                style="font-size: 1rem; font-weight: 700; color: var(--text-color);">塾に通っても成績が変わらない</span>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 32px;">
+                        <div
+                            style="display: inline-block; background-color: var(--white); padding: 12px 32px; border-radius: 40px; border: 2px solid var(--primary-color); box-shadow: 0 5px 15px rgba(245, 124, 0, 0.1); position: relative;">
+                            <p
+                                style="font-size: 1.2rem; font-weight: 800; color: var(--primary-color); margin: 0; display: flex; align-items: center; gap: 10px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                その悩み、プロ家庭教師なら<br>解決できます。
+                            </p>
+                            <div
+                                style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid var(--primary-color);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section id="features" class="reveal" style="background-color: var(--white);">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">✨</span>
+                    FKCが選ばれる<br>3つの理由
+                </h2>
+                <div class="case-grid">
+                    <div class="case-card target-item"
+                        style="border-left: none; text-align: left; border-bottom: 6px solid var(--secondary-color); transition: all 0.3s ease; display: flex; flex-direction: column; padding: 24px;">
+                        <div style="display: flex; gap: 24px;">
+                            <div style="flex-shrink: 0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                    fill="none" stroke="var(--secondary-color)" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                                </svg>
+                            </div>
+                            <div style="flex: 1;">
+                                <h3
+                                    style="margin-bottom: 15px; color: var(--secondary-color); margin-top: 0; font-size: 1.5rem;">
+                                    プロ家庭教師による<br>質の高い指導</h3>
+                                <p style="font-size: 0.95rem; margin-bottom: 16px;">
+                                    経験豊富なプロ家庭教師が、お子様の理解度に合わせて「わかる」まで丁寧に指導します。📝</p>
+                            </div>
+                        </div>
+                        <div style="text-align: center; margin-top: 15px; margin-bottom: 5px; width: 100%;">
+                            <a href="javascript:void(0)" class="details-btn" data-label="プロ家庭教師とは"
+                                style="background: var(--primary-color); color: var(--white); padding: 8px 30px; border-radius: 30px; text-decoration: none; display: inline-block; box-shadow: 0 4px 10px rgba(245, 124, 0, 0.2); font-size: 0.95rem;">プロ家庭教師とは→</a>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-text-box">
+                                <p
+                                    style="font-weight: 700; color: var(--secondary-color); text-align: center; margin-bottom: 20px;">
+                                    〜単なる「教え上手」ではない、結果にこだわるプロフェッショナル〜</p>
+                                <p>「プロ家庭教師」と「学生アルバイト教師」の最大の違いは、指導を<strong>「職業」</strong>として取り組んでいるかどうかにあります。</p>
+                                <h4>■ 圧倒的な経験値と実績</h4>
+                                <p>プロと呼ばれる教師は、これまでに数百人、千時間以上の指導経験を積んでいます。どのようなタイプのお子様であっても、どこでつまずいているかを瞬時に見抜き、最適なアプローチを提示することができます。
+                                </p>
+                                <h4>■ 結果に対する強い責任感</h4>
+                                <p>学生のように「卒業まで」といった期限がありません。お子様の合格を自らの仕事の成果として捉え、妥協のない指導を行います。</p>
+                                <h4>■ 最新の入試情報と戦略</h4>
+                                <p>三条・燕・加茂エリアの入試傾向は毎年変化します。プロ教師は常に最新の情報を更新し、「今、どの単元を優先すべきか」を正確に判断します。</p>
+                                <h4>■ 高い人間性とマナー</h4>
+                                <p>FKCでは、学力テストだけでなく厳しい面接を行い、礼儀、言葉遣い、かつ「お子様の可能性を信じる人間性」を兼ね備えた人物のみを採用しています。</p>
+                                <div class="details-btn-bottom">
+                                    <a href="javascript:void(0)" class="details-btn">詳細を閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-card"
+                        style="border-left: none; text-align: left; border-bottom: 6px solid var(--primary-color); display: flex; gap: 24px; padding: 24px;">
+                        <div style="flex-shrink: 0;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M16 18l6-6-6-6"></path>
+                                <path d="M8 6l-6 6 6 6"></path>
+                            </svg>
+                        </div>
+                        <div style="flex: 1;">
+                            <h3
+                                style="margin-bottom: 15px; color: var(--primary-color); margin-top: 0; font-size: 1.5rem;">
+                                完全オーダーメイド授業</h3>
+                            <p style="font-size: 0.95rem;">
+                                ひとり一人のお子様の状況・性格・進路などをお聞きし、<br>お子様、お家の方のご要望に沿った学習プランをご提案させていただきます。🎯</p>
+                        </div>
+                    </div>
+                    <div class="case-card"
+                        style="border-left: none; text-align: left; border-bottom: 6px solid #4CAF50; display: flex; gap: 24px; padding: 24px;">
+                        <div style="flex-shrink: 0;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="#4CAF50" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div style="flex: 1;">
+                            <h3 style="margin-bottom: 15px; color: #4CAF50; margin-top: 0; font-size: 1.5rem;">
+                                営業マンなし。<br>実際の先生が来る<br>無料体験授業</h3>
+                            <p style="font-size: 0.95rem;">
+                                「試して納得していただくこと」を大切にしています<br>✔実際の先生が授業<br>✔営業マン同行なし<br>✔当日契約不要🤝</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Case Studies -->
+        <section id="cases" class="reveal" style="background-color: var(--bg-color);">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">📈</span>
+                    驚異の成績アップ事例<br>＆<br>やる気アップ事例
+                </h2>
+                <div class="case-grid">
+                    <!-- 事例1 -->
+                    <div class="case-card">
+                        <div class="case-icon-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                <polyline points="17 6 23 6 23 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="case-content">
+                            <div class="case-body">
+                                1学期平均55点から、2学期で
+                                <span class="case-highlight">80点に到達！</span>
+                            </div>
+                            <div class="case-author">（燕市中学1年）</div>
+                        </div>
+                    </div>
+                    <!-- 事例2 -->
+                    <div class="case-card">
+                        <div class="case-icon-bg" style="background: #f0f7ff; color: var(--secondary-color);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <polyline points="6 10 12 4 18 10"></polyline>
+                            </svg>
+                        </div>
+                        <div class="case-content">
+                            <div class="case-body">
+                                苦手な数学、開始後のテストで
+                                <span class="case-highlight">30点アップ！</span>
+                            </div>
+                            <div class="case-author">（三条市中学2年）</div>
+                        </div>
+                    </div>
+                    <!-- 事例3 -->
+                    <div class="case-card">
+                        <div class="case-icon-bg" style="background: #f0fff4; color: #4CAF50;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="case-content">
+                            <div class="case-body">
+                                勉強のコツを掴み
+                                <span class="case-highlight" style="color: #2E7D32;">自ら進んで勉強</span>
+                                するように！
+                            </div>
+                            <div class="case-author">（加茂市中学3年保護者様）</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" style="background-color: var(--white);" class="reveal">
+            <div class="container">
+                <div style="margin-bottom: 40px; text-align: center;">
+                    <img src="parent_student.jpg" alt="保護者様・生徒の声のイメージ"
+                        style="width: 100%; max-width: 700px; height: auto; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); margin: 0 auto; display: block;"
+                        loading="lazy">
+                </div>
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">💌</span>
+                    保護者様・生徒の声
+                </h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            「テストの点数が上がったことももちろん嬉しいですが、それ以上に“やればできる”と本人が思えるようになったことに心から感謝しています。」
+                        </p>
+                        <p class="testimonial-author">（中学2年生保護者様）</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">「先生の説明、マジでわかりやすい！勉強ちょっと楽しくなってきた」</p>
+                        <p class="testimonial-author">（中学3年生　男子）</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            「うちの子は失敗を極端に嫌がるタイプで、間違えること自体が怖く、なかなか質問もできませんでした。ですが先生は、最初から答えを求めるのではなく、『どう考えたの？』と優しくプロセスを聞いてくださいます。否定せずに受け止めてくださるので、本人も安心して話せているようです。」
+                        </p>
+                        <p class="testimonial-author">（中学1年生保護者様）</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Study Methods -->
+        <section id="study-method" class="reveal" style="background-color: #f0f7ff;">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">📘</span>
+                    成績を上げるための<br>具体的な勉強法を公開
+                </h2>
+                <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <p
+                        style="font-size: 1.25rem; font-weight: 700; color: var(--secondary-color); margin-bottom: 16px;">
+                        「なぜうちの子は伸びないのか？」<br>
+                        その原因、実はやり方にあります。
+                    </p>
+                    <p style="margin-bottom: 40px;">
+                        FKCでは、これまでの指導経験から<br>
+                        “結果が出た勉強法”だけ厳選して公開しています。
+                    </p>
+
+                    <div
+                        style="background: var(--white); padding: 30px; border-radius: 16px; box-shadow: var(--shadow); text-align: left; margin-bottom: 40px;">
+                        <h3
+                            style="color: var(--secondary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 24px; display: inline-block;">
+                            📘 よく読まれている勉強コラム
+                        </h3>
+
+                        <div style="margin-bottom: 24px;">
+                            <h4 style="font-weight: 900; color: var(--text-color); margin-bottom: 8px;">■
+                                テストで点数が伸びない本当の原因</h4>
+                            <p style="font-size: 0.95rem; color: #555; padding-left: 1.2em;">→
+                                一生懸命やっているのに点が取れない子には共通点があります。原因と解決法を具体的に解説。</p>
+                        </div>
+
+                        <div style="margin-bottom: 24px;">
+                            <h4 style="font-weight: 900; color: var(--text-color); margin-bottom: 8px;">■ 家庭教師で伸びる子の共通点
+                            </h4>
+                            <p style="font-size: 0.95rem; color: #555; padding-left: 1.2em;">→
+                                実際に成績が上がった生徒の特徴をもとに、伸びる子の習慣を紹介。</p>
+                        </div>
+
+                        <div style="margin-bottom: 24px;">
+                            <h4 style="font-weight: 900; color: var(--text-color); margin-bottom: 8px;">■ 親がやってはいけないNG行動
+                            </h4>
+                            <p style="font-size: 0.95rem; color: #555; padding-left: 1.2em;">→
+                                良かれと思ってやっている声かけが逆効果になるケースも。改善ポイントを解説。</p>
+                        </div>
+
+                        <div style="text-align: right; margin-top: 10px;">
+                            <a href="column.html"
+                                style="color: var(--secondary-color); font-weight: 700; text-decoration: underline;">▶
+                                コラムをもっと見る</a>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 40px;">
+                        <p style="font-size: 1.2rem; font-weight: 700; margin-bottom: 16px;">「読んで終わり」にしないために</p>
+                        <p>
+                            コラムの内容は、あくまで“正しいやり方”です。<br>
+                            ただし実際には、
+                        </p>
+                        <div
+                            style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
+                            <span
+                                style="background: #e1f5fe; padding: 5px 15px; border-radius: 20px; font-weight: 700; font-size: 0.9rem;">・お子様の理解度</span>
+                            <span
+                                style="background: #e1f5fe; padding: 5px 15px; border-radius: 20px; font-weight: 700; font-size: 0.9rem;">・性格</span>
+                            <span
+                                style="background: #e1f5fe; padding: 5px 15px; border-radius: 20px; font-weight: 700; font-size: 0.9rem;">・現在の学力</span>
+                        </div>
+                        <p>によって最適な勉強法は変わります。</p>
+                    </div>
+
+                    <div
+                        style="background: #fff5f2; padding: 30px; border-radius: 16px; border: 2px dashed var(--primary-color);">
+                        <p style="font-size: 1.15rem; font-weight: 700; margin-bottom: 10px;">お子様に合ったやり方で<br>伸ばしたい方へ</p>
+                        <p style="margin-bottom: 20px;">
+                            フジタ家庭教師センターでは、<br>
+                            一人ひとりに合わせた指導で成績アップをサポートします。
+                        </p>
+                        <p style="font-weight: 700; margin-bottom: 10px;">まずはお気軽に体験してください。</p>
+                        <div style="font-size: 2rem; margin-bottom: 10px;">👇</div>
+                        <a href="tel:0120778635" class="btn btn-primary"
+                            style="display: inline-flex; width: auto; padding: 0 40px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" style="margin-right: 10px;">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            無料体験を予約する
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flow -->
+        <section id="flow" class="reveal" style="background-color: var(--white);">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">👣</span>
+                    ご利用までの4ステップ
+                </h2>
+                <div class="flow-container">
+                    <div class="flow-step">
+                        <div class="flow-number">1</div>
+                        <div class="flow-content">
+                            <h3>お問い合わせ・学習相談</h3>
+                            <p>まずはお電話からお気軽にお問い合わせください。現状の学習状況や志望校、お悩みなどをヒアリングさせていただきます。</p>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-number">2</div>
+                        <div class="flow-content">
+                            <h3>「無料体験授業」または「お申込み」</h3>
+                            <p>プロ家庭教師の授業を無料で体験していただけます。「本当にわかるようになるか」「先生との相性は良いか」を直接ご確認ください。<br>またはすぐにお申し込みも可能です
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-number">3</div>
+                        <div class="flow-content">
+                            <h3>学習プランと料金のご提案</h3>
+                            <p>体験授業を通して見えた課題に基づき、最短で目標達成できる専用の学習プランを作成。ご予算に合わせた明確な料金をご提示します。</p>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-number">4</div>
+                        <div class="flow-content">
+                            <h3>授業スタート</h3>
+                            <p>プランにご納得いただけた場合のみ、ご入会となります。（無理な勧誘は一切ありません）目標達成に向けて、プロ家庭教師と二人三脚でスタートします！</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="tel:0120778635" class="btn btn-primary"
+                        style="display: inline-flex; width: auto; padding: 0 40px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            style="margin-right: 10px;">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                        無料体験を予約する
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teachers -->
+        <section id="teachers" class="reveal" style="background-color: var(--bg-color);">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">🧑‍🏫</span>
+                    厳選された<br>プロ家庭教師
+                </h2>
+                <p style="text-align: center; margin-bottom: 40px; font-weight: 700;">
+                    学力はもちろん、人間性やマナーを兼ね備えた<br>厳格な採用基準をクリアしたプロのみが指導します。</p>
+                <div class="teacher-grid">
+                    <div class="teacher-card">
+                        <div class="teacher-image">
+                            <img src="ishizuki.png" alt="石附 先生" loading="lazy">
+                        </div>
+                        <div class="teacher-tag">数学・理科担当</div>
+                        <h3 class="teacher-name">石附 先生</h3>
+                        <div class="teacher-info">
+                            <div class="info-item"><strong>指導歴：</strong>20年以上</div>
+                            <div class="info-item"><strong>得意科目：</strong>数学・理科</div>
+                            <div class="info-item"><strong>合格実績：</strong>三条高校／巻高校／三条東高校／加茂高校/ 新潟大学ほか</div>
+                        </div>
+                        <p class="teacher-desc">
+                            「苦手な数学を根本から理解させ得意科目に変える」指導スタイル。基礎から丁寧に説明する授業を心がけています。「わかる」だけでなく「自分で解ける」ようになるまで、一人ひとりのペースに合わせて指導します。
+                        </p>
+                        <div
+                            style="margin-top: 15px; padding: 12px; background-color: #f0f7ff; border-radius: 8px; font-size: 0.9rem; border-left: 4px solid var(--secondary-color); text-align: left;">
+                            <p style="font-weight: 700; color: var(--secondary-color); margin-bottom: 8px;">
+                                こちらの先生はこんな子に向いています</p>
+                            <ul style="list-style: none; padding-left: 0; margin-bottom: 0;">
+                                <li style="margin-bottom: 4px;">・理数教科が苦手</li>
+                                <li style="margin-bottom: 4px;">・数学の点数が伸び悩んでいる</li>
+                                <li style="margin-bottom: 4px;">・塾に行ってるが点が上がらない</li>
+                                <li>・計算はできるけど文章題、応用問題ができない</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="teacher-card">
+                        <div class="teacher-image">
+                            <img src="sato.png" alt="佐藤 先生" loading="lazy">
+                        </div>
+                        <div class="teacher-tag">中学生指導中心</div>
+                        <h3 class="teacher-name">佐藤 先生</h3>
+                        <div class="teacher-info">
+                            <div class="info-item"><strong>指導歴：</strong>15年</div>
+                            <div class="info-item"><strong>得意学年：</strong>中学生</div>
+                            <div class="info-item"><strong>合格実績：</strong>県央地域の高校ほぼ全て</div>
+                        </div>
+                        <p class="teacher-desc">
+                            中学生の指導を中心に担当しています。成績が伸びない原因は、多くの場合「勉強のやり方」にあります。基礎を丁寧に理解し、自分の力で解ける力を育てる指導を大切にしています。学校のテストで結果が出るよう、一人ひとりに合わせてしっかりサポートします。
+                        </p>
+                        <div
+                            style="margin-top: 15px; padding: 12px; background-color: #fff5f2; border-radius: 8px; font-size: 0.9rem; border-left: 4px solid var(--primary-color); text-align: left;">
+                            <p style="font-weight: 700; color: var(--primary-color); margin-bottom: 8px;">
+                                こちらの先生はこんな子に向いています</p>
+                            <ul style="list-style: none; padding-left: 0; margin-bottom: 0;">
+                                <li style="margin-bottom: 4px;">・勉強のやり方がわからない</li>
+                                <li style="margin-bottom: 4px;">・家で勉強する習慣がない</li>
+                                <li style="margin-bottom: 4px;">・定期テストでもっと点を取りたい</li>
+                                <li>・志望校に合格したい</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="margin-top: 48px; padding: 28px; background-color: #fffaf0; border-radius: 20px; box-shadow: 0 10px 25px rgba(255, 87, 34, 0.08); max-width: 800px; margin-left: auto; margin-right: auto; border: 2px dashed var(--primary-color); position: relative;">
+                    <div
+                        style="position: absolute; top: -15px; left: 24px; background: var(--primary-color); color: white; padding: 4px 16px; border-radius: 20px; font-weight: 700; font-size: 0.9rem;">
+                        FKCの想い
+                    </div>
+                    <div style="display: flex; gap: 16px; align-items: flex-start;">
+                        <div style="font-size: 2rem; flex-shrink: 0; margin-top: 4px;">🤝</div>
+                        <p
+                            style="font-size: 1.15rem; line-height: 1.8; color: var(--text-color); margin: 0; font-weight: 700; text-align: left;">
+                            この先生以外にも、お子様の性格や学習状況に合わせた先生をご紹介できます。<br>
+                            「相性」を大切にしていますので、お子様に合う先生を一緒に見つけていきましょう。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="reveal" style="background-color: var(--white);">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">❓</span>
+                    よくあるご質問
+                </h2>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="faq-item">
+                        <div class="faq-q">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" style="flex-shrink: 0;">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span>体験授業は本当に無料ですか？</span>
+                        </div>
+                        <div class="faq-a">はい、完全無料です。入会を強要することもございませんのでご安心ください。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" style="flex-shrink: 0;">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span>交通費はかかりますか？</span>
+                        </div>
+                        <div class="faq-a">いただいておりません。月謝以外の不明な費用は発生しません。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" style="flex-shrink: 0;">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span>不登校でも指導可能ですか？</span>
+                        </div>
+                        <div class="faq-a">対応可能です。お子様のペースに合わせてメンタル面もサポートしながら進めます。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" style="flex-shrink: 0;">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span>先生との相性が合わなかった場合は、無料で交代できますか？</span>
+                        </div>
+                        <div class="faq-a">はい、無料で交代可能です。お子様にぴったりの先生に出会えるようサポートいたします。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" style="flex-shrink: 0;">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span>テスト前だけ指導回数を増やすことはできますか？</span>
+                        </div>
+                        <div class="faq-a">はい、可能です。定期テスト前や受験直前など、希望に合わせて柔軟にスケジュールや回数を調整できます。</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" style="flex-shrink: 0;">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                            <span>共働きで親が不在のときでも指導してもらえますか？</span>
+                        </div>
+                        <div class="faq-a">もちろん可能です。</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start with Free Trial -->
+        <section id="contact" class="reveal" style="background-color: var(--bg-color);">
+            <div class="container" style="text-align: center;">
+                <div style="margin-bottom: 40px; text-align: center;">
+                    <img src="trial_study.jpg" alt="無料体験授業のイメージ"
+                        style="width: 100%; max-width: 700px; height: auto; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); margin: 0 auto; display: block;"
+                        loading="lazy">
+                </div>
+
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">📞</span>
+                    まずは無料体験から
+                </h2>
+
+                <div
+                    style="margin: -24px auto 40px; display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
+                    <div
+                        style="background-color: var(--white); border: 2px solid var(--primary-color); border-radius: 50px; padding: 12px 24px; font-weight: 700; color: var(--text-color); display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 10px rgba(245, 124, 0, 0.15); font-size: 1.1rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--primary-color)" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round" style="flex-shrink: 0;">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>営業マン同行なし</span>
+                    </div>
+                    <div
+                        style="background-color: var(--white); border: 2px solid var(--primary-color); border-radius: 50px; padding: 12px 24px; font-weight: 700; color: var(--text-color); display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 10px rgba(245, 124, 0, 0.15); font-size: 1.1rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--primary-color)" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round" style="flex-shrink: 0;">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>実際の先生が授業</span>
+                    </div>
+                    <div
+                        style="background-color: var(--white); border: 2px solid var(--primary-color); border-radius: 50px; padding: 12px 24px; font-weight: 700; color: var(--text-color); display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 10px rgba(245, 124, 0, 0.15); font-size: 1.1rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--primary-color)" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round" style="flex-shrink: 0;">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>当日契約不要</span>
+                    </div>
+                </div>
+
+                <div class="accordion-wrapper" style="margin-bottom: 32px;">
+                    <a href="javascript:void(0)" class="details-btn" data-label="無料体験授業詳細はこちら→"
+                        style="font-size: 1.15rem; display: inline-block; padding: 10px 20px; border: 2px solid var(--primary-color); border-radius: 30px; color: var(--primary-color);">無料体験授業詳細はこちら→</a>
+                    <div class="accordion-content">
+                        <div class="accordion-text-box"
+                            style="text-align: left; max-width: 800px; margin: 0 auto; background-color: var(--white); box-shadow: var(--shadow); border: 1px solid var(--gray-light);">
+                            <h3
+                                style="color: var(--primary-color); text-align: center; margin-bottom: 24px; font-size: 1.4rem;">
+                                無料体験授業</h3>
+                            <p style="font-weight: 700; text-align: center; margin-bottom: 24px;">
+                                まずは、本当の授業を体験してください。
+                            </p>
+
+                            <p>家庭教師をお願いする前に、</p>
+                            <p style="margin: 16px 0;">「本当にこの先生で大丈夫だろうか」<br>「うちの子に合うだろうか」</p>
+                            <p>そう思われるのは、当然のことです。</p>
+                            <p style="margin-top: 16px;">だからこそ当センターでは、<br>実際の授業をそのまま体験できる無料体験授業を行っています。</p>
+
+                            <h4
+                                style="color: var(--secondary-color); margin-top: 40px; margin-bottom: 20px; border-bottom: 2px solid var(--secondary-color); padding-bottom: 8px; font-size: 1.2rem;">
+                                当センターの体験授業はここが違います</h4>
+
+                            <h5
+                                style="color: var(--primary-color); font-weight: 700; margin-top: 24px; margin-bottom: 12px; font-size: 1.05rem;">
+                                営業スタッフは同行しません</h5>
+                            <p>体験授業の際に<br>営業スタッフが同行して契約の説明をする</p>
+                            <p style="margin: 12px 0;">そのような形ではありません。</p>
+                            <p>当センターでは<br>営業スタッフは一切同行しません。</p>
+
+                            <h5
+                                style="color: var(--primary-color); font-weight: 700; margin-top: 32px; margin-bottom: 12px; font-size: 1.05rem;">
+                                実際に担当する家庭教師が伺います</h5>
+                            <p>体験授業には<br>実際に指導を担当する家庭教師本人がお伺いします。</p>
+                            <p style="margin: 12px 0;">そのため<br>体験のための特別な授業ではなく</p>
+                            <p>普段と同じ本当の授業を体験していただけます。</p>
+
+                            <h5
+                                style="color: var(--primary-color); font-weight: 700; margin-top: 32px; margin-bottom: 12px; font-size: 1.05rem;">
+                                お子さまとの相性を確認できます</h5>
+                            <p>家庭教師で一番大切なのは<br>先生との相性です。</p>
+                            <p style="margin: 12px 0; padding-left: 1em;">
+                                ・説明はわかりやすいか<br>・質問しやすいか<br>・やる気が出そうか</p>
+                            <p>ぜひ実際の授業で確かめてください。</p>
+
+                            <h5
+                                style="color: var(--primary-color); font-weight: 700; margin-top: 32px; margin-bottom: 12px; font-size: 1.05rem;">
+                                当日契約の必要はありません</h5>
+                            <p>体験授業が終わりましたら<br>教師はそのまま失礼いたします。</p>
+                            <p style="margin: 12px 0;">その後は</p>
+                            <p>ご家族だけでゆっくりご検討ください。</p>
+                            <p style="margin-top: 12px;">その場で契約をお願いすることは<br>一切ありません。</p>
+
+                            <h5
+                                style="color: var(--primary-color); font-weight: 700; margin-top: 32px; margin-bottom: 12px; font-size: 1.05rem;">
+                                後日お返事をいただくだけで大丈夫です</h5>
+                            <p>後日あらためて</p>
+                            <p style="margin: 12px 0;">家庭教師を<br>・お申し込みになるか<br>・今回は見送るか</p>
+                            <p>をお聞きいたします。</p>
+                            <p style="margin: 12px 0;">もちろん</p>
+                            <p>お断りいただいてもまったく問題ありません。</p>
+
+                            <h4
+                                style="color: var(--secondary-color); margin-top: 40px; margin-bottom: 20px; border-bottom: 2px solid var(--secondary-color); padding-bottom: 8px; text-align: center; font-size: 1.2rem;">
+                                まずはお気軽に体験してみてください</h4>
+                            <p style="text-align: center;">家庭教師が合うかどうかは<br>実際に授業を受けてみるのが一番</p>
+                            <p style="text-align: center; font-weight: 700; margin-top: 16px;">
+                                お子さまに合う勉強方法を見つけるきっかけになれば私たちにとって何よりです。</p>
+
+                            <div style="text-align: center; margin-top: 32px; margin-bottom: 24px;">
+                                <a href="tel:0120778635" class="btn btn-primary"
+                                    style="display: inline-flex; width: auto; padding: 0 40px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" style="margin-right: 8px;">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.27-2.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                    電話で無料体験を予約する
+                                </a>
+                            </div>
+
+                            <div class="details-btn-bottom">
+                                <a href="javascript:void(0)" class="details-btn">詳細を閉じる</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p style="margin-bottom: 32px; font-size: 1.1rem;">お電話からお気軽にお申し込みください。</p>
+                <div style="display: flex; flex-direction: column; gap: 16px; align-items: center;">
+                    <p style="font-size: 1.1rem; font-weight: 700; color: var(--text-color); margin-bottom: 8px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            style="margin-right: 4px; vertical-align: middle; color: var(--primary-color);">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        新潟県燕市新生町102
+                    </p>
+                    <div class="btn-group" style="max-width: 400px;">
+                        <span class="micro-copy">＼お気軽に／</span>
+                        <a href="tel:0120778635" class="btn btn-secondary" style="width: 100%;">
+                            0120-77-8635（通話無料）
+                        </a>
+                    </div>
+                    <p style="font-size: 0.9rem; color: #666; margin-top: -8px;">（受付時間：10:00〜21:00 土日祝も対応）
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Area -->
+        <section id="area" style="padding-top: 0; padding-bottom: 40px; background-color: var(--white);" class="reveal">
+            <div class="container" style="max-width: 900px; padding: 0 20px;">
+                <div class="area-box">
+                    <h3 class="area-title">対応エリア</h3>
+                    <div class="area-tags">
+                        <span class="area-tag">📍 三条市全域</span>
+                        <span class="area-tag">📍 燕市全域</span>
+                        <span class="area-tag">📍 加茂市全域</span>
+                        <span class="area-tag">📍 その他周辺地域（要相談）</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section id="achievements" class="reveal" style="background-color: var(--bg-color);">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">🏆</span>
+                    地域密着の<br>確かな合格実績
+                </h2>
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 40px;">
+                    <img src="success_new.png" alt="第一志望合格への実績"
+                        style="width: 100%; max-width: 400px; border-radius: 20px; clip-path: inset(0 0 12% 0);"
+                        loading="lazy">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Major School Achievements -->
+        <section id="major-achievements" class="reveal" style="background-color: var(--white);">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">🏫</span>
+                    主な合格実績校
+                </h2>
+                <p class="section-subtitle">
+                    三条・燕・加茂エリアの主要高校・大学への合格実績多数。<br>
+                    お子様の志望校合格を全力でサポートします。
+                </p>
+                <div class="achievement-schools">
+                    <h3
+                        style="text-align: center; color: var(--secondary-color); margin-bottom: 20px; font-size: 1.25rem;">
+                        高校</h3>
+                    <div class="school-list">
+                        <span class="school-badge">三条高校</span>
+                        <span class="school-badge">巻高校</span>
+                        <span class="school-badge">三条東高校</span>
+                        <span class="school-badge">加茂高校</span>
+                        <span class="school-badge">吉田高校</span>
+                        <span class="school-badge">分水高校</span>
+                        <span class="school-badge">長岡高校</span>
+                        <span class="school-badge">加茂農林高校</span>
+                        <span class="school-badge">県央工業高校</span>
+                        <span class="school-badge">明訓高校</span>
+                        <span class="school-badge">新潟第一高校</span>
+                        <span class="school-badge">北越高校</span>
+                        <span class="school-badge">東京学館高校</span>
+                        <span class="school-badge">加茂暁星高校</span>
+
+                        <span class="school-badge">日本文理高校</span>
+                        <span class="school-badge">その他多数</span>
+                    </div>
+                    <h3
+                        style="text-align: center; color: var(--secondary-color); margin-top: 40px; margin-bottom: 20px; font-size: 1.25rem;">
+                        大学</h3>
+                    <div class="school-list">
+                        <span class="school-badge">新潟大学</span>
+                        <span class="school-badge">日本歯科大学</span>
+                        <span class="school-badge">国際情報大学</span>
+                        <span class="school-badge">新潟医療福祉大学</span>
+                        <span class="school-badge">新潟薬科大学</span>
+                        <span class="school-badge">新潟経営大学</span>
+                        <span class="school-badge">新潟青陵大学</span>
+                        <span class="school-badge">新潟国際情報大学</span>
+
+                        <span class="school-badge">長岡造形大学</span>
+
+                        <span class="school-badge">敬和学園大学</span>
+                        <span class="school-badge">その他多数</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Targets -->
+        <section id="targets" class="reveal" style="background-color: var(--bg-color);">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">🏫</span>
+                    幅広い対応対象
+                </h2>
+                <div class="target-list">
+                    <div class="target-item with-bg" style="min-height: 250px; padding: 0;">
+                        <div class="target-item-bg" style="background-image: url('hs.png');"></div>
+                        <div class="target-overlay">
+                            <div class="target-header">
+                                <span class="target-name">小学生</span>
+                            </div>
+                            <a href="javascript:void(0)" class="details-btn">詳細を見る</a>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-text-box">
+                                <p
+                                    style="font-weight: 700; color: var(--secondary-color); text-align: center; margin-bottom: 20px;">
+                                    〜小学校6年間で“将来に通用する本物の学力”を育てます〜</p>
+                                <p>小学生の学習は、すべての土台です。ここで身につけた力が、中学・高校、そしてその先まで大きく影響します。</p>
+                                <p>当センターでは、計算や漢字といった基礎の基礎を、ただ“やらせる”のではなく、<strong>「わかる」→「できる」→「一人でできる」</strong>まで徹底的に指導します。
+                                </p>
+
+                                <h4>■ 基礎をあいまいにしません</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・計算のやり方を理解する</li>
+                                    <li>・正しい手順で解ける</li>
+                                    <li>・何も見ずに自力で解ける</li>
+                                </ul>
+                                <p>この段階まで到達するまで、丁寧に反復練習を行います。特に算数は積み重ねの教科です。</p>
+                                <p>分数・小数の計算は絶対に避けて通れません。ここをあいまいにしたまま中学生になると、確実につまずきます。当センターでは、「完璧にできる」と言える状態まで繰り返します。
+                                </p>
+
+                                <h4>■ 国語力は“すべての教科の土台”</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・漢字の正確な読み書き</li>
+                                    <li>・主語と述語を意識した文章作り</li>
+                                    <li>・文章を正しく読み取る力</li>
+                                </ul>
+                                <p>国語は「センス」ではありません。正しい練習を積み重ねれば、必ず伸びます。</p>
+
+                                <h4>■ さらに一歩先へ</h4>
+                                <p>基礎が固まったお子さまには、応用問題にも挑戦していきます。「考える力」を伸ばし、自信へとつなげます。</p>
+                                <p>中学受験にも対応可能です。合格に必要な演習量を確保し、実戦力を養います。</p>
+
+                                <h4>■ 私たちが大切にしていること</h4>
+                                <p>その場しのぎの点数ではなく、中学生になっても困らない“本物の学力”を育てること。</p>
+                                <p style="font-weight: 700; text-align: center;">小学生の6年間で、一生使える力を身につけさせます。
+                                </p>
+                                <div class="details-btn-bottom">
+                                    <a href="javascript:void(0)" class="details-btn">詳細を閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="target-item with-bg" style="min-height: 250px; padding: 0;">
+                        <div class="target-item-bg" style="background-image: url('jh.png');"></div>
+                        <div class="target-overlay">
+                            <div class="target-header">
+                                <span class="target-name">中学生</span>
+                            </div>
+                            <a href="javascript:void(0)" class="details-btn">詳細を見る</a>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-text-box">
+                                <p
+                                    style="font-weight: 700; color: var(--secondary-color); text-align: center; margin-bottom: 20px;">
+                                    〜定期テスト対策から入試本番まで、点が取れる力を育てます〜</p>
+                                <p>中学生になると、<br>「勉強のやり方が分からない」<br>「家ではなかなか続かない」<br>「テスト前だけ慌ててしまう」<br>というご相談が一気に増えます。
+                                </p>
+                                <p>成績が伸びない原因の多くは、“能力”ではなく勉強のやり方と習慣にあります。</p>
+                                <p>当センターでは、まずそこから整えます。</p>
+
+                                <h4>■ ① 毎日の学習習慣をつくる</h4>
+                                <p>いきなり応用問題には進みません。</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・学校内容の理解チェック</li>
+                                    <li>・できていない単元の洗い出し</li>
+                                    <li>・具体的な学習計画作成</li>
+                                </ul>
+                                <p>「今日は何をやればいいか分からない」をなくします。<br>学習の土台が整うことで、テスト前に慌てなくなります。</p>
+
+                                <h4>■ ② 定期テストで“結果を出す”具体策</h4>
+                                <p>内申点は高校入試に直結します。<br>そのため、定期テスト対策は最重要項目です。</p>
+                                <p>当センターでは、</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・学校ワークの徹底反復</li>
+                                    <li>・提出物の完成度チェック</li>
+                                    <li>・出題傾向を踏まえた予想問題演習</li>
+                                    <li>・実戦形式トレーニング</li>
+                                </ul>
+                                <p>「わかる」ではなく、<br>テスト本番で“取れる”状態まで仕上げます。</p>
+
+                                <h4>■ ③ 入試に通用する本物の実力を育てる</h4>
+                                <p>受験生には、基礎固め＋入試レベル演習を並行して進めます。</p>
+                                <p><strong>【数学】</strong></p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・計算問題は満点を取り切る訓練</li>
+                                    <li>・関数・図形の応用問題対策</li>
+                                    <li>・難問への段階的アプローチ指導</li>
+                                </ul>
+                                <p><strong>【英語】</strong></p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・文法の総整理</li>
+                                    <li>・長文読解の読み方トレーニング</li>
+                                    <li>・英作文の型の習得</li>
+                                </ul>
+                                <p><strong>【理科・社会】</strong></p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・暗記の効率化（覚え方の指導）</li>
+                                    <li>・頻出分野の重点演習</li>
+                                    <li>・一問一答の高速反復</li>
+                                </ul>
+                                <p>単なる“問題量”ではなく、<br>合格に必要な得点戦略をもとに指導します。</p>
+
+                                <h4>■ 私たちが目指すもの</h4>
+                                <p>その場しのぎの点数アップではありません。</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・内申点を確実に上げる</li>
+                                    <li>・入試本番で通用する実力をつける</li>
+                                    <li>・自分で勉強できる力を育てる</li>
+                                </ul>
+                                <p style="font-weight: 700; text-align: center;">
+                                    中学3年間で、<br>高校進学後も伸び続ける学力を身につけさせます。</p>
+                                <div class="details-btn-bottom">
+                                    <a href="javascript:void(0)" class="details-btn">詳細を閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="target-item with-bg" style="min-height: 250px; padding: 0;">
+                        <div class="target-item-bg" style="background-image: url('elem.png');"></div>
+                        <div class="target-overlay">
+                            <div class="target-header">
+                                <span class="target-name">高校生</span>
+                            </div>
+                            <a href="javascript:void(0)" class="details-btn">詳細を見る</a>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-text-box">
+                                <p
+                                    style="font-weight: 700; color: var(--secondary-color); text-align: center; margin-bottom: 20px;">
+                                    〜一人ひとりの現状と目標から逆算した指導〜</p>
+                                <p>高校生になると、学校ごとの進度やレベル差が大きくなります。<br>同じ学年でも、必要な対策はまったく異なります。</p>
+                                <p>当センターでは、まず</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・在籍高校のレベル</li>
+                                    <li>・現在の評定平均、留年危険度</li>
+                                    <li>・志望大学（一般・推薦）</li>
+                                </ul>
+                                <p>を整理し、個別の戦略を立てます。</p>
+
+                                <h4>■ ① 定期テスト対策＝留年対策、評定を守る・上げる</h4>
+                                <p>留年対策、大学受験では「評定」が大きな武器になります。</p>
+                                <p>そのため、学校ごとの出題傾向に合わせて</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・テスト範囲の優先順位整理</li>
+                                    <li>・学校教材の徹底反復</li>
+                                    <li>・提出課題の完成度チェック</li>
+                                </ul>
+                                <p>を行います。</p>
+                                <p>ただ解説するのではなく、<br>テスト本番で点が取れる状態まで仕上げます。</p>
+
+                                <h4>■ ② 週末課題・日々の学習管理</h4>
+                                <p>高校の課題量は非常に多く、<br>「やっているつもり」で終わるケースが少なくありません。</p>
+                                <p>当センターでは、</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・課題の進捗管理</li>
+                                    <li>・理解度チェック</li>
+                                    <li>・間違い直しの徹底</li>
+                                </ul>
+                                <p>を行い、<br>“提出するだけ”で終わらせません。</p>
+                                <p>これにより、基礎の抜け漏れを防ぎます。</p>
+
+                                <h4>■ ③ 大学受験対策（一般・推薦・総合型に対応）</h4>
+                                <p>志望校に合わせて戦略を変えます。</p>
+                                <p><strong>【一般受験】</strong></p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・共通テスト対策</li>
+                                </ul>
+                                <p><strong>【推薦・総合型選抜】</strong></p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・評定対策</li>
+                                </ul>
+                                <p>「何となく頑張る」ではなく、<br>目標から逆算した準備を進めます。</p>
+
+                                <h4>■ 私たちが大切にしていること</h4>
+                                <p>高校生は“量”だけでは伸びません。<br>正しい方向で努力しなければ結果に結びつきません。</p>
+                                <p>当センターは、</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・評定を守る</li>
+                                    <li>・志望校との差を埋める</li>
+                                    <li>・自走できる学習力を育てる</li>
+                                </ul>
+                                <p style="font-weight: 700; text-align: center;">この3つを徹底します。</p>
+                                <div class="details-btn-bottom">
+                                    <a href="javascript:void(0)" class="details-btn">詳細を閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="target-item with-bg" style="min-height: 250px; padding: 0;">
+                        <div class="target-item-bg" style="background-image: url('ronin.jpg');"></div>
+                        <div class="target-overlay">
+                            <div class="target-header">
+                                <span class="target-name">既卒生</span>
+                            </div>
+                            <a href="javascript:void(0)" class="details-btn">詳細を見る</a>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-text-box">
+                                <p
+                                    style="font-weight: 700; color: var(--secondary-color); text-align: center; margin-bottom: 20px;">
+                                    〜この一年を“やり直し”ではなく“逆転の一年”に〜</p>
+                                <p>既卒生にとって最も重要なのは、正しい戦略と徹底した実行管理です。</p>
+                                <p>時間はあります。しかし、方向を誤れば結果は出ません。</p>
+                                <p>当センターでは、合格から逆算した個別戦略を立てます。</p>
+
+                                <h4>■ ① 現状分析からスタート</h4>
+                                <p>まず行うのは、</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・模試結果の詳細分析</li>
+                                    <li>・得点源と弱点分野の洗い出し</li>
+                                    <li>・志望校との得点差の数値化</li>
+                                </ul>
+                                <p>「なんとなく勉強する」状態をなくします。必要な点数、伸ばすべき科目を明確にします。</p>
+
+                                <h4>■ ② 年間計画を具体化</h4>
+                                <p>合格までを、</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・基礎固め期</li>
+                                    <li>・実力養成期</li>
+                                    <li>・過去問演習期</li>
+                                </ul>
+                                <p>の3段階に分け、月単位・週単位で学習計画を設計します。</p>
+                                <p>毎日の学習量・内容を明確にし、進捗管理を徹底します。</p>
+
+                                <h4>■ ③ 過去問を“解くだけ”で終わらせない</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・時間配分の訓練</li>
+                                    <li>・出題傾向分析</li>
+                                </ul>
+                                <p>本番で得点できる形に仕上げます。</p>
+
+                                <h4>■ ④ メンタル面のサポート</h4>
+                                <p>既卒生は孤独になりやすく、焦りも生まれます。</p>
+                                <p>定期的な面談で、</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・学習状況の確認</li>
+                                    <li>・不安の整理</li>
+                                    <li>・軌道修正</li>
+                                </ul>
+                                <p>を行い、モチベーションを維持します。</p>
+
+                                <p
+                                    style="margin-top: 30px; padding: 20px; background: #fff; border: 2px solid var(--primary-color); border-radius: 10px; color: var(--primary-color); font-weight: 700; text-align: center; line-height: 1.8;">
+                                    <span style="font-size: 1.25rem;">私たちの約束</span><br><br>
+                                    この一年を、「なんとなく頑張った一年」にはしません。<br>
+                                    戦略・管理・実行。合格に必要なすべてを個別に設計し、最後まで伴走します。
+                                </p>
+                                <div class="details-btn-bottom">
+                                    <a href="javascript:void(0)" class="details-btn">詳細を閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="target-item with-bg" style="min-height: 250px; padding: 0;">
+                        <div class="target-item-bg" style="background-image: url('futoko.jpg');"></div>
+                        <div class="target-overlay">
+                            <div class="target-header">
+                                <span class="target-name">不登校生</span>
+                            </div>
+                            <a href="javascript:void(0)" class="details-btn">詳細を見る</a>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-text-box">
+                                <p
+                                    style="font-weight: 700; color: var(--secondary-color); text-align: center; margin-bottom: 20px;">
+                                    〜今は学校に行けなくても、学びは止めません〜</p>
+                                <p>不登校は怠けではありません。<br>まずは安心できる環境づくりを最優先にします。</p>
+                                <p>否定せず、急がせず、比べない。<br>短時間でも「できた」という成功体験を積み重ね、少しずつ自信を取り戻します。</p>
+
+                                <h4>■ 学力の遅れを整理し、今やるべきことから</h4>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・現在の理解度を確認</li>
+                                    <li>・つまずいている単元を特定</li>
+                                    <li>・優先順位を決めて段階的に復習</li>
+                                </ul>
+                                <p>焦って全範囲をやるのではなく、<br>必要なところから確実に取り戻します。</p>
+
+                                <h4>■ 将来の選択肢を広げます</h4>
+                                <p>学校復帰だけをゴールにしません。</p>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>・在宅学習の継続</li>
+                                    <li>・通信制高校進学</li>
+                                    <li>・受験対策</li>
+                                </ul>
+                                <p>状況に合わせた現実的な進路設計を行います。</p>
+                                <p>大切なのは、「今できることを積み重ねること」。<br>学力と自信を、同時に取り戻していきます。</p>
+
+                                <p
+                                    style="margin-top: 30px; padding: 15px; background: #fff; border: 2px solid var(--primary-color); border-radius: 10px; color: var(--primary-color); font-weight: 700; text-align: center;">
+                                    当センターには不登校生を何人も指導してきた先生が在籍しておりますので安心してお任せください
+                                </p>
+                                <div class="details-btn-bottom">
+                                    <a href="javascript:void(0)" class="details-btn">詳細を閉じる</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    style="text-align: center; margin: 40px auto 0; padding: 24px; background: #fff5f2; border-radius: 12px; border: 2px dashed var(--primary-color); max-width: 600px;">
+                    <p
+                        style="font-size: 1.25rem; font-weight: 700; color: var(--primary-color); margin: 0; line-height: 1.6;">
+                        一人ひとりの状況・性格・目標に合わせた、<br>オーダーメイド指導を行います
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Price -->
+        <section id="price" class="reveal" style="background-color: var(--bg-color);">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">👛</span>
+                    安心の料金体系
+                </h2>
+                <div class="price-card"
+                    style="text-align: left; max-width: 800px; margin: 0 auto; background: var(--white); padding: 40px; border-radius: 12px; box-shadow: var(--shadow);">
+
+                    <p style="font-size: 1.1rem; margin-bottom: 16px;">
+                        当センターでは、一律の料金設定ではなく、
+                        お子様の学年・目標・指導回数・時間により異なります。<br>
+                        ご予算に合わせた最適な学習プランをご提案いたします。
+
+                        そのため料金は個別にご案内しておりますが、
+                        一般的な家庭教師の相場の範囲内で、無理のない金額設定となっております。
+                    </p>
+                    <p class="price-note" style="font-weight: 700; color: var(--primary-color);">
+                        ※ 入会金・交通費・年会費・解約違約金・不明瞭な教材費などは一切いただいておりません。<br>
+                        何十万円もする高額教材の販売を目的にする家庭教師ではありません。<br>
+                        <strong>”純粋な家庭教師です”</strong>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Message -->
+        <section id="message" class="reveal" style="background-color: var(--white);">
+            <div class="container">
+                <h2 class="section-title">
+                    <span style="font-size: 2rem; margin-right: 8px; vertical-align: middle;">🤝</span>
+                    代表メッセージ
+                </h2>
+                <div class="message-content">
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <div class="message-img-wrapper">
+                            <img src="rep_id_final.png" alt="代表：フジタ" class="message-img" loading="lazy">
+                        </div>
+                        <div style="margin-top: 15px; font-weight: 700; font-size: 1.15rem; color: var(--text-color);">
+                            代表　藤田
+                        </div>
+                    </div>
+                    <div class="message-text" style="font-style: normal; text-align: left;">
+                        <p style="font-size: 1.25rem; font-weight: 500;">
+                            「ひとり一人のお子様の状況・性格・進路などをお聞きし、<br>
+                            お子様、お家の方のご要望に沿ったコースをご提案させていただきます。<br>
+                            勉強のやり方が変わると、成績は変わります。<br>まずは無料体験授業で授業の違いを感じてみてください。」<br>
+                        </p>
+                    </div>
+                    <a href="tel:0120778635" class="btn btn-primary" style="margin-top: 10px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            style="margin-right: 8px;">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.27-2.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        電話で無料体験を予約する
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footer-title" style="margin-bottom: 4px; color: #fff; font-size: 1.5rem; font-weight: 900;">
+                フジタ家庭教師センター</p>
+            <p class="footer-info" style="margin-bottom: 4px; color: #fff; font-size: 0.9rem;">新潟県燕市新生町102<br>電話:
+                0120-77-8635</p>
+            <div class="footer-links"
+                style="margin: 20px 0; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 15px;">
+                <ul
+                    style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; list-style: none; padding: 0; margin: 0;">
+                    <li><a href="legal.html#privacy"
+                            style="color: #ccc; font-size: 0.8rem; text-decoration: none;">プライバシーポリシー</a></li>
+                    <li><a href="legal.html#tokushoho"
+                            style="color: #ccc; font-size: 0.8rem; text-decoration: none;">特定商取引法</a></li>
+                    <li><a href="legal.html#terms"
+                            style="color: #ccc; font-size: 0.8rem; text-decoration: none;">利用規約</a></li>
+                    <li><a href="legal.html#disclaimer"
+                            style="color: #ccc; font-size: 0.8rem; text-decoration: none;">免責事項</a></li>
+                    <li><a href="legal.html#policy"
+                            style="color: #ccc; font-size: 0.8rem; text-decoration: none;">サイトポリシー</a></li>
+                </ul>
+            </div>
+            <p class="footer-copy" style="margin-bottom: 0; color: #fff; font-size: 0.8rem;">&copy; 2026 All Rights
+                Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Mobile Fixed CTA -->
+    <div class="fixed-cta">
+        <a href="tel:0120778635" class="cta-tel" style="position: relative;">
+            <span class="micro-copy"
+                style="font-size: 0.7rem; top: -14px; padding: 2px 8px; box-shadow: none;">＼お気軽に／</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                style="margin-bottom: 2px;">
+                <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.27-2.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+            </svg>
+            <small>お電話で相談</small>
+            <span>0120-77-8635</span>
+        </a>
+        <a href="tel:0120778635" class="cta-trial" style="position: relative;">
+            <span class="micro-copy"
+                style="font-size: 0.7rem; top: -14px; padding: 2px 8px; box-shadow: none;">＼最短1分で完了／</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                style="margin-right: 8px;">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            無料体験を予約する
+        </a>
+    </div>
+
+    <!-- Desktop Floating CTA -->
+    <div class="floating-cta-pc">
+        <div class="btn-group">
+            <span class="micro-copy">＼お気軽に／</span>
+            <a href="tel:0120778635" class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 10px;">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.27-2.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                </svg>
+                0120-77-8635
+            </a>
+        </div>
+        <div class="btn-group">
+            <span class="micro-copy">＼無理な勧誘は一切ありません／</span>
+            <a href="tel:0120778635" class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 10px;">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                無料体験を予約する
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // ページ読み込み時に常に先頭から表示するための設定
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        e.preventDefault();
+                        target.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Scroll reveal animation
+            const revealElements = document.querySelectorAll('.reveal');
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+
+            revealElements.forEach(el => {
+                observer.observe(el);
+            });
+
+            // Accordion feature for targets
+            document.querySelectorAll('.details-btn').forEach(button => {
+                button.addEventListener('click', function () {
+                    const item = this.closest('.target-item') || this.closest('.accordion-wrapper');
+                    if (!item) return;
+
+                    const isActive = item.classList.toggle('active');
+
+                    // 同一項目内の全ボタンのテキストを同期
+                    item.querySelectorAll('.details-btn').forEach(btn => {
+                        if (isActive) {
+                            btn.textContent = '詳細を閉じる';
+                        } else {
+                            btn.textContent = btn.getAttribute('data-label') || '詳細を見る';
+                        }
+                    });
+
+                    // 閉じたときに項目が画面外に出ていたらスクロールで戻す
+                    if (!isActive) {
+                        item.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+        });
+    </script>
+
+3:Ta2c4,
+        /* 画像に重ねるテキストのスタイル */
+        .hero-text-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+            text-align: left;
+            pointer-events: none;
+        }
+
+        .hero-top-left {
+            max-width: 80%;
+        }
+
+        .hero-badge-small {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.9);
+            color: var(--primary-color);
+            padding: 4px 10px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-title-main {
+            font-size: 1.35rem !important;
+            /* 1行に収めるためわずかに縮小 (1.5rem -> 1.35rem) */
+            color: var(--secondary-color) !important;
+            line-height: 1.4 !important;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 8px 12px !important;
+            /* 余白を微調整 */
+            border-radius: 8px;
+            display: inline-block;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            font-weight: 900 !important;
+            margin-bottom: 12px !important;
+            margin-top: 0 !important;
+            border-left: 5px solid var(--primary-color);
+            white-space: nowrap;
+            /* 改行を禁止 */
+        }
+
+        .hero-title-main span {
+            display: block;
+            font-size: 0.95rem !important;
+            font-weight: 700 !important;
+            margin-bottom: 4px;
+            color: var(--primary-color) !important;
+            /* エリア情報を目立たせる */
+        }
+
+        .hero-sub-copy {
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+            /* 文字色をネイビーにしてコントラストを強める */
+            font-weight: 800;
+            /* さらに太く */
+            line-height: 1.4;
+            background: rgba(255, 255, 255, 0.85);
+            /* 背景の白を濃く */
+            padding: 6px 15px;
+            display: inline-block;
+            border-radius: 4px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            /* ボックス自体に影をつけて浮かせる */
+            text-shadow: none;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .hero-bottom-center {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* 縦に並べる */
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 15px;
+            pointer-events: auto;
+        }
+
+        .hero-btn-overlay {
+            background: var(--primary-color) !important;
+            color: white !important;
+            padding: 10px 24px !important;
+            border-radius: 50px !important;
+            font-weight: 900 !important;
+            font-size: 1rem !important;
+            box-shadow: 0 4px 15px rgba(245, 124, 0, 0.5);
+            text-decoration: none !important;
+            display: inline-block;
+            pointer-events: auto;
+        }
+
+        /* 蛍のように光を放つアニメーションの一括適用 */
+        .hero-btn-overlay,
+        .cta-trial,
+        .btn-ripple,
+        .floating-cta-pc .btn-primary,
+        #message a.btn-primary,
+        #study-method a.btn-primary,
+        #flow a.btn-primary,
+        #contact a.btn-primary,
+        .details-btn {
+            animation: pulse-orange 2s infinite !important;
+        }
+
+        /* 電話番号ボタンなど（青系）のアニメーション */
+        .cta-tel,
+        .btn-secondary,
+        .floating-cta-pc .btn-secondary {
+            animation: pulse-blue 2s infinite !important;
+        }
+
+        @keyframes pulse-orange {
+            0% {
+                box-shadow: 0 0 0 0 rgba(245, 124, 0, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(245, 124, 0, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(245, 124, 0, 0);
+            }
+        }
+
+        @keyframes pulse-blue {
+            0% {
+                box-shadow: 0 0 0 0 rgba(13, 71, 161, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(13, 71, 161, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(13, 71, 161, 0);
+            }
+        }
+
+        @media (min-width: 768px) {
+            .hero-text-overlay {
+                padding: 40px;
+            }
+
+            .hero-badge-small {
+                font-size: 1rem;
+                padding: 6px 15px;
+            }
+
+            .hero-title-main {
+                font-size: 2.8rem !important;
+                padding: 15px 25px !important;
+                /* PCでは少しゆったりさせる */
+            }
+
+            .hero-title-main span {
+                font-size: 1.6rem !important;
+            }
+
+            .hero-sub-copy {
+                font-size: 1.4rem;
+                padding: 10px 20px;
+                margin-bottom: 15px;
+            }
+
+            .hero-btn-overlay {
+                font-size: 1.4rem !important;
+                padding: 15px 40px !important;
+            }
+        }
+
+        /* ==========================================================================
+           Design Tokens
+           ========================================================================== */
+        :root {
+            --primary-color: #F57C00;
+            /* 温かみと活力を与えるアンバー（オレンジ系） */
+            --secondary-color: #0D47A1;
+            /* 信頼と知性を表すディープネイビー */
+            --bg-color: #F9FAFB;
+            --text-color: #333333;
+            --white: #FFFFFF;
+            --gray-light: #E0E0E0;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --radius: 8px;
+            /* 少し丸みを強めて親しみやすさを */
+            --container-max: 1100px;
+            --line-height: 1.8;
+            /* 行間を少し広げて読みやすく */
+            --section-padding: 50px;
+            /* セクション間の余白を調整 */
+        }
+
+        /* ==========================================================================
+           Base Styles
+           ========================================================================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 16px;
+            line-height: var(--line-height);
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: opacity 0.3s ease;
+        }
+
+        a:hover {
+            opacity: 0.8;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 10px;
+            /* 20pxから10pxに縮小 (スマホ用) */
+        }
+
+        section {
+            padding: var(--section-padding) 0;
+            background-color: var(--white);
+        }
+
+        /* モバイルでは余白をさらに狭く */
+        @media (max-width: 767px) {
+            section {
+                padding: 30px 0;
+            }
+        }
+
+        section:nth-child(even) {
+            background-color: var(--bg-color);
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 56px;
+            border-radius: var(--radius);
+            font-weight: 700;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            font-size: 1.1rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: var(--white);
+            box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+        }
+
+        .btn-secondary {
+            background-color: var(--secondary-color);
+            color: var(--white);
+            box-shadow: 0 4px 15px rgba(21, 101, 192, 0.3);
+        }
+
+        .btn-group {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .micro-copy {
+            position: absolute;
+            top: -16px;
+            background-color: #FFC107;
+            color: #222;
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+            z-index: 10;
+            white-space: nowrap;
+            letter-spacing: 0.05em;
+        }
+
+        .micro-copy::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 6px 5px 0;
+            border-style: solid;
+            border-color: #FFC107 transparent transparent transparent;
+        }
+
+        /* ==========================================================================
+           Header & Nav
+           ========================================================================== */
+        header {
+            background: var(--white);
+            height: 60px;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            flex-wrap: nowrap;
+            /* 折れ曲がりを防止 */
+        }
+
+        .header-contact {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            /* スマホ用に狭く調整 (15pxから) */
+        }
+
+        .header-tel {
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            color: var(--secondary-color);
+            font-size: 1.05rem;
+            /* サイズを大きく戻す (0.85remから) */
+            gap: 2px;
+            white-space: nowrap;
+            letter-spacing: -0.05em;
+            /* 文字間隔をさらに狭く */
+        }
+
+        .header-btn {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .header-contact {
+                gap: 15px;
+                /* デスクトップではゆとりを持たせる */
+            }
+
+            .header-tel {
+                font-size: 1.1rem;
+                gap: 6px;
+            }
+
+            .header-btn {
+                display: block;
+                background: var(--primary-color);
+                color: var(--white);
+                padding: 10px 20px;
+                border-radius: 4px;
+                font-weight: 700;
+                font-size: 0.9rem;
+            }
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            text-decoration: none;
+            gap: 2px;
+            /* ロゴ画像と文字の間隔を限界まで狭く (6pxから) */
+            min-width: 0;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .logo-text {
+            font-weight: 900;
+            font-size: 1.15rem;
+            /* サイズを大きく戻す (0.95remから) */
+            color: var(--secondary-color);
+            letter-spacing: -0.07em;
+            /* 文字間隔を大幅に狭く */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* 念の為、どうしても入り切らない場合は...にする */
+        }
+
+        @media (min-width: 768px) {
+            .logo {
+                gap: 10px;
+            }
+
+            .logo img {
+                height: 50px;
+            }
+
+            .logo-text {
+                font-size: 1.25rem;
+            }
+        }
+
+        /* ==========================================================================
+           Hero Section
+           ========================================================================== */
+        .hero {
+            position: relative;
+            background: linear-gradient(135deg, #fff5f2 0%, #e3f2fd 100%);
+            color: var(--text-color);
+            text-align: center;
+            padding: 5px 0 80px;
+            /* スマホ用に上部の余白を最小化 (20px -> 5px) */
+            overflow: hidden;
+        }
+
+        .hero-flex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .hero h1 {
+            font-size: 1.75rem;
+            margin-bottom: 16px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-sub {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 32px;
+            opacity: 0.95;
+            padding: 0 10px;
+        }
+
+        .hero-cta {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        /* ==========================================================================
+           Hero Slideshow
+           ========================================================================== */
+        .hero-slideshow {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto 32px auto;
+            border-radius: 16px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            display: flex;
+        }
+
+        .hero-slide {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+        }
+
+        .slide-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            animation: heroFadePulse 8s infinite alternate;
+        }
+
+        @keyframes heroFadePulse {
+
+            0%,
+            35% {
+                opacity: 0;
+            }
+
+            65%,
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* ==========================================================================
+           Service Area Section
+           ========================================================================== */
+        .area-box {
+            background: #E8EAF6;
+            border-radius: 12px;
+            padding: 32px 24px;
+            text-align: center;
+        }
+
+        .area-title {
+            color: var(--secondary-color);
+            margin-bottom: 24px;
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+
+        .area-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .area-tag {
+            background: var(--white);
+            color: var(--text-color);
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-weight: 700;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            font-size: 0.95rem;
+        }
+
+        /* ==========================================================================
+           Animations (ふわっと表示)
+           ========================================================================== */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* 文字列の浮き上がり */
+        .reveal-delay-1 {
+            transition-delay: 0.2s;
+        }
+
+        .reveal-delay-2 {
+            transition-delay: 0.4s;
+        }
+
+        .reveal-delay-3 {
+            transition-delay: 0.6s;
+        }
+
+        /* ==========================================================================
+           Typography & Layout
+           ========================================================================== */
+        .section-title {
+            text-align: center;
+            margin-bottom: 32px;
+            font-size: 1.75rem;
+            color: var(--secondary-color);
+            position: relative;
+            padding-bottom: 16px;
+        }
+
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background-color: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        .section-subtitle {
+            text-align: left;
+            margin-top: -24px;
+            margin-bottom: 32px;
+            font-size: 1.125rem;
+            color: #666;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* 実績校バッジ */
+        .achievement-schools {
+            margin-top: 40px;
+            padding: 30px;
+            background: #fdf2e9;
+            border-radius: var(--radius);
+            border: 1px dashed var(--primary-color);
+        }
+
+        .school-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .school-badge {
+            background: var(--white);
+            color: var(--secondary-color);
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            border: 1px solid #bbdefb;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        /* ==========================================================================
+           Achievements Section
+           ========================================================================== */
+        .achievement-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .achievement-item {
+            background: var(--white);
+            padding: 12px 20px;
+            border-radius: 50px;
+            border: 2px solid var(--secondary-color);
+            color: var(--secondary-color);
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        /* ==========================================================================
+           Case Studies Section
+           ========================================================================== */
+        .case-grid {
+            display: grid;
+            gap: 24px;
+        }
+
+        /* ==========================================================================
+           Teachers & Testimonials Section
+           ========================================================================== */
+        .teacher-grid,
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        @media (min-width: 768px) {
+
+            .teacher-grid,
+            .testimonial-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .teacher-card {
+            background: var(--white);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            border-top: 4px solid var(--primary-color);
+        }
+
+        .teacher-icon,
+        .teacher-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto 16px;
+            overflow: hidden;
+            border: 3px solid #FFF3E0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .teacher-icon {
+            font-size: 3rem;
+            line-height: 100px;
+            background: #FFF3E0;
+        }
+
+        .teacher-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .teacher-tag {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: var(--white);
+            font-size: 0.8rem;
+            padding: 2px 12px;
+            border-radius: 20px;
+            margin-bottom: 8px;
+            align-self: center;
+            font-weight: 700;
+        }
+
+        .teacher-name {
+            font-size: 1.4rem;
+            color: var(--secondary-color);
+            margin-bottom: 16px;
+            font-weight: 900;
+        }
+
+        .teacher-info {
+            text-align: left;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            font-size: 0.9rem;
+        }
+
+        .info-item {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-item strong {
+            color: var(--secondary-color);
+            display: inline-block;
+            min-width: 80px;
+        }
+
+        .teacher-desc {
+            font-size: 0.95rem;
+            text-align: left;
+            line-height: 1.6;
+            color: #444;
+            border-top: 1px dashed var(--gray-light);
+            padding-top: 16px;
+        }
+
+        .testimonial-card {
+            background: var(--white);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: "“";
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 4rem;
+            color: var(--gray-light);
+            font-family: serif;
+            line-height: 1;
+        }
+
+        .testimonial-rating {
+            color: #FFC107;
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+            text-align: left;
+            padding-left: 30px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-text {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 1;
+            font-weight: 500;
+        }
+
+        .testimonial-author {
+            font-size: 0.9rem;
+            color: #666;
+            text-align: right;
+            position: relative;
+            z-index: 1;
+        }
+
+        .case-card {
+            background: var(--white);
+            padding: 16px 20px;
+            /* 余白を削って高さを抑える */
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            border-left: 6px solid var(--primary-color);
+            display: flex;
+            /* 横並び */
+            align-items: flex-start;
+            gap: 15px;
+        }
+
+        .case-content {
+            flex: 1;
+        }
+
+        .case-title {
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+            color: var(--primary-color);
+            line-height: 1.4;
+        }
+
+        .case-body {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-color);
+            line-height: 1.5;
+        }
+
+        .case-highlight {
+            display: inline-block;
+            /* blockから変更して高さを詰めやすく */
+            font-size: 1.25rem;
+            font-weight: 900;
+            color: var(--secondary-color);
+            margin: 2px 0;
+        }
+
+        .case-author {
+            font-size: 0.75rem;
+            color: #777;
+            text-align: right;
+            margin-top: 5px;
+            font-weight: normal;
+        }
+
+        .case-icon-bg {
+            background: #fff5f2;
+            width: 45px;
+            height: 45px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            color: var(--primary-color);
+        }
+
+        /* ==========================================================================
+           Target Section
+           ========================================================================== */
+        .target-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .target-item {
+            background: var(--white);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            font-weight: 700;
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            color: var(--text-color);
+        }
+
+        .target-item-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-size: cover;
+            background-position: center;
+            opacity: 1;
+            transition: transform 0.4s ease;
+            z-index: 0;
+        }
+
+        .target-item:hover .target-item-bg {
+            transform: scale(1.05);
+        }
+
+        /* グラデーションのオーバーレイ */
+        .target-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60%;
+            background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+
+        .target-item>div:not(.target-item-bg):not(.target-overlay),
+        .target-item>span,
+        .target-item>a {
+            position: relative;
+            z-index: 2;
+        }
+
+        .target-item.with-bg {
+            color: var(--text-color);
+        }
+
+        .target-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        /* ターゲット項目のレイアウト変更用 */
+        .target-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .target-name {
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: var(--secondary-color);
+            text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+        }
+
+        .details-btn {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 0.85rem;
+            color: var(--secondary-color);
+            text-decoration: underline;
+            font-weight: 700;
+            cursor: pointer;
+            position: relative;
+            z-index: 10;
+            background: none;
+            border: none;
+            padding: 0;
+        }
+
+        .target-list .details-btn {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 8px 24px;
+            border-radius: 30px;
+            font-size: 0.95rem;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(245, 124, 0, 0.2);
+            transition: all 0.3s ease;
+            margin-top: 0;
+        }
+
+        .target-list .details-btn:hover {
+            background: #e65100;
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(245, 124, 0, 0.3);
+        }
+
+        /* アコーディオン機能 */
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.5s ease-in-out;
+            text-align: left;
+            font-weight: 400;
+            font-size: 1.15rem;
+            /* さらに大きく調整 */
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .details-btn-bottom {
+            margin-top: 40px;
+            text-align: center;
+            border-top: 2px dashed var(--secondary-color);
+            /* より目立たせる */
+            padding-top: 30px;
+            padding-bottom: 30px;
+            /* 下に余白を確保 */
+        }
+
+        .target-item.active {
+            grid-column: 1 / -1;
+            /* 広がった時は横いっぱいに使う */
+        }
+
+        .target-item.active .accordion-content,
+        .accordion-wrapper.active .accordion-content {
+            max-height: 5000px;
+            /* 超長文でも余裕を持って表示 */
+            padding-top: 20px;
+            margin-top: 15px;
+            border-top: 1px dashed var(--gray-light);
+            overflow: visible;
+            /* クリッピング防止 */
+        }
+
+        .accordion-text-box {
+            background-color: var(--bg-color);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .accordion-text-box h4 {
+            color: var(--secondary-color);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 10px;
+            font-size: 1rem;
+        }
+
+        .accordion-text-box h4:first-child {
+            margin-top: 0;
+        }
+
+        .accordion-text-box ul {
+            list-style: disc;
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .accordion-text-box p {
+            margin-bottom: 10px;
+        }
+
+        /* ==========================================================================
+           Price Section
+           ========================================================================== */
+        .price-card {
+            background: var(--white);
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            border: 2px solid var(--gray-light);
+        }
+
+        .price-note {
+            margin-top: 16px;
+            font-size: 1.1rem;
+            color: var(--primary-color);
+        }
+
+        /* ==========================================================================
+           Message Section
+           ========================================================================== */
+        .message-content {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .message-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .message-img-wrapper {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 6px solid var(--white);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* ==========================================================================
+           Flow Section (ご利用の流れ)
+           ========================================================================== */
+        .flow-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .flow-step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 24px;
+            background: var(--white);
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        .flow-step:last-child {
+            margin-bottom: 0;
+        }
+
+        .flow-number {
+            flex-shrink: 0;
+            width: 48px;
+            height: 48px;
+            background: var(--primary-color);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            font-weight: 900;
+            margin-right: 20px;
+            box-shadow: 0 4px 10px rgba(245, 124, 0, 0.3);
+        }
+
+        .flow-content h3 {
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+            margin-bottom: 8px;
+            margin-top: 4px;
+        }
+
+        .flow-content p {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Vertical Line connecting steps */
+        @media (min-width: 768px) {
+            .flow-container {
+                position: relative;
+            }
+
+            .flow-container::before {
+                content: '';
+                position: absolute;
+                top: 24px;
+                bottom: 24px;
+                left: 48px;
+                /* 24px (half number width) + padding if needed, adjusted visually */
+                width: 2px;
+                background: #E0E0E0;
+                z-index: 0;
+            }
+
+            .flow-step {
+                z-index: 1;
+            }
+        }
+
+        .message-text {
+            font-style: italic;
+            position: relative;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+        }
+
+        .message-text::before {
+            content: "“";
+            font-size: 4rem;
+            color: var(--secondary-color);
+            position: absolute;
+            top: -20px;
+            left: 5px;
+            opacity: 0.2;
+        }
+
+        /* ==========================================================================
+           FAQ Section
+           ========================================================================== */
+        .faq-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--gray-light);
+            padding-bottom: 16px;
+        }
+
+        .faq-q {
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .faq-q::before {
+            content: "Q";
+            color: var(--primary-color);
+        }
+
+        .faq-a {
+            display: flex;
+            gap: 10px;
+        }
+
+        .faq-a::before {
+            content: "A";
+            color: var(--secondary-color);
+            font-weight: 700;
+        }
+
+        /* ==========================================================================
+           Mobile Fixed CTA
+           ========================================================================== */
+        .fixed-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 64px;
+            display: flex;
+            z-index: 1000;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .fixed-cta .btn {
+            height: 100%;
+            border-radius: 0;
+            font-size: 0.95rem;
+        }
+
+        .cta-tel {
+            flex: 1;
+            background: var(--secondary-color);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.2;
+        }
+
+        .cta-tel small {
+            font-size: 0.7rem;
+            opacity: 0.8;
+        }
+
+        .cta-tel span {
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .cta-trial {
+            flex: 1.5;
+            background: var(--primary-color);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: pulse-orange 2s infinite;
+        }
+
+        /* ==========================================================================
+           Desktop Floating CTA
+           ========================================================================== */
+        .floating-cta-pc {
+            display: none;
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+            z-index: 1000;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .floating-cta-pc .btn {
+            width: 280px;
+            border-radius: 30px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* ==========================================================================
+           Responsive Styles
+           ========================================================================== */
+        @media (min-width: 768px) {
+            .hero {
+                text-align: left;
+                padding: 100px 0;
+            }
+
+            .hero-flex {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .hero-content {
+                flex: 1;
+            }
+
+            .hero-image {
+                flex: 1;
+                max-width: 480px;
+            }
+
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+
+            .hero-sub {
+                font-size: 1.25rem;
+                padding: 0;
+            }
+
+            .hero-cta {
+                flex-direction: row;
+                justify-content: flex-start;
+                gap: 20px;
+            }
+
+            .hero-cta .btn-group,
+            .hero-cta .btn {
+                width: auto;
+            }
+
+            .hero-cta .btn {
+                padding: 0 40px;
+            }
+
+            .case-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .target-list {
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+            .message-content {
+                flex-direction: row;
+                text-align: left;
+            }
+
+            .message-img {
+                width: 180px;
+                height: 180px;
+            }
+
+            .section-title {
+                font-size: 2.5rem;
+                margin-bottom: 48px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .fixed-cta {
+                display: none;
+            }
+
+            .floating-cta-pc {
+                display: flex;
+            }
+
+            section {
+                padding: 80px 0;
+            }
+
+            .hero {
+                padding: 120px 0 140px;
+            }
+
+            .container {
+                padding: 0 20px;
+            }
+        }
+
+        /* Prevent footer overlap with fixed CTA on mobile */
+        footer {
+            padding: 48px 0 112px;
+            background: #222;
+            color: #999;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+        @media (min-width: 1024px) {
+            footer {
+                padding-bottom: 48px;
+            }
+        }
+    0:["rnYu35JatzPt0wJqaTVhg",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},[["$L1",[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"フジタ家庭教師センター\",\"image\":\"https://fujita-kc.com/logo.png\",\"@id\":\"https://fujita-kc.com\",\"url\":\"https://fujita-kc.com\",\"telephone\":\"090-6794-4340\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"東裏館2-12-14\",\"addressLocality\":\"三条市\",\"addressRegion\":\"新潟県\",\"postalCode\":\"955-0081\",\"addressCountry\":\"JP\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":35.6186,\"longitude\":138.9221},\"openingHoursSpecification\":{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"22:00\"},\"sameAs\":[]}"}}],["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]]],null],null]},[["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap","rel":"stylesheet"}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"\n          @media (max-width: 768px) {\n            .column-container {\n              padding-left: 15px !important;\n              padding-right: 15px !important;\n            }\n          }\n        "}}]]}],["$","body",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[null,"$L6"]]]]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師"}],["$","meta","3",{"name":"description","content":"三条・燕・加茂エリア専門のプロ家庭教師。小学生から高校生、既卒、不登校まで対応。志望校合格と成績アップを全力サポート。"}],["$","link","4",{"rel":"canonical","href":"https://fujita-kc.com"}],["$","meta","5",{"property":"og:title","content":"フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師"}],["$","meta","6",{"property":"og:description","content":"三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。"}],["$","meta","7",{"property":"og:url","content":"https://fujita-kc.com"}],["$","meta","8",{"property":"og:site_name","content":"フジタ家庭教師センター"}],["$","meta","9",{"property":"og:locale","content":"ja_JP"}],["$","meta","10",{"property":"og:image","content":"https://fujita-kc.com/logo.png"}],["$","meta","11",{"property":"og:image:width","content":"1200"}],["$","meta","12",{"property":"og:image:height","content":"630"}],["$","meta","13",{"property":"og:type","content":"website"}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:title","content":"フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師"}],["$","meta","16",{"name":"twitter:description","content":"三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。"}],["$","meta","17",{"name":"twitter:image","content":"https://fujita-kc.com/logo.png"}]]
+1:null
