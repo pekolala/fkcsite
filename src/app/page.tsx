@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     description: '三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。',
     images: ['https://fujita-kc.com/logo.png'],
   },
+  verification: {
+    google: 'xnIKK9RpddKv4GTgciPJwkPjyIlMyYcIKXmT2ntu8V4',
+  },
 };
 
 export default function Page() {
