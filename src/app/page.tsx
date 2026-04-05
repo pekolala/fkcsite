@@ -16,6 +16,6 @@ export default function Page() {
   const bodyHtml = bodyMatch ? bodyMatch[1] : content;
 
   return (
-    <main className="home-container" dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+    <main dangerouslySetInnerHTML={{ __html: bodyHtml }} />
   );
 }

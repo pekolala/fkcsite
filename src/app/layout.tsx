@@ -26,7 +26,7 @@ export default function RootLayout({
         <style dangerouslySetInnerHTML={{ __html: combinedStyles }} />
         <style dangerouslySetInnerHTML={{ __html: `
           @media (max-width: 768px) {
-            .column-container, .home-container {
+            .column-container {
               padding-left: 15px !important;
               padding-right: 15px !important;
             }
