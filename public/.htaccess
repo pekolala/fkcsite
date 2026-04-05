@@ -6,9 +6,25 @@
 Options +FollowSymLinks
 RewriteEngine On
 
+# 実際にファイルやディレクトリが存在する場合はリダイレクトしない
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
 # --- 旧ページを新トップページへ 301 リダイレクト ---
 RewriteRule ^tokucho/?$  / [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^kosu/?$     / [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^nagare/?$   / [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^inquiry/?$  / [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^access/?$   / [R=301,L]
