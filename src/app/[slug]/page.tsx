@@ -27,6 +27,6 @@ export default async function Page({ params }: { params: { slug: string } }) {
   const bodyHtml = bodyMatch ? bodyMatch[1] : content;
 
   return (
-    <main dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+    <main className="column-container" dangerouslySetInnerHTML={{ __html: bodyHtml }} />
   );
 }
