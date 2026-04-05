@@ -1,0 +1,14 @@
+# -----------------------------------------------------------
+# 301 リダイレクト設定
+# 旧サイトの URL を新しいトップページへ転送します
+# -----------------------------------------------------------
+
+Options +FollowSymLinks
+RewriteEngine On
+
+# --- 旧ページを新トップページへ 301 リダイレクト ---
+RewriteRule ^tokucho/?$  / [R=301,L]
+RewriteRule ^kosu/?$     / [R=301,L]
+RewriteRule ^nagare/?$   / [R=301,L]
+RewriteRule ^inquiry/?$  / [R=301,L]
+RewriteRule ^access/?$   / [R=301,L]
