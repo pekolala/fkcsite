@@ -1,8 +1,8 @@
 # -----------------------------------------------------------
 # URL の正規化 (www ありを www なしに統一)
 # -----------------------------------------------------------
-Options +FollowSymLinks
 RewriteEngine On
+RewriteBase /
 
 # wwwありのアクセスをwwwなしに 301 リダイレクト
 RewriteCond %{HTTP_HOST} ^www\.fujita-kc\.com [NC]
