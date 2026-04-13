@@ -6,16 +6,16 @@ export const metadata: Metadata = {
   title: 'フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師',
   description: '三条・燕・加茂エリア専門のプロ家庭教師。小学生から高校生、既卒、不登校まで対応。志望校合格と成績アップを全力サポート。',
   alternates: {
-    canonical: 'https://fujita-kc.com',
+    canonical: 'https://www.fujita-kc.com',
   },
   openGraph: {
     title: 'フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師',
     description: '三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。',
-    url: 'https://fujita-kc.com',
+    url: 'https://www.fujita-kc.com',
     siteName: 'フジタ家庭教師センター',
     images: [
       {
-        url: 'https://fujita-kc.com/logo.png',
+        url: 'https://www.fujita-kc.com/logo.png',
         width: 1200,
         height: 630,
       },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師',
     description: '三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。',
-    images: ['https://fujita-kc.com/logo.png'],
+    images: ['https://www.fujita-kc.com/logo.png'],
   },
   verification: {
     google: 'xnIKK9RpddKv4GTgciPJwkPjyIlMyYcIKXmT2ntu8V4',
@@ -46,9 +46,9 @@ export default function Page() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'フジタ家庭教師センター',
-    image: 'https://fujita-kc.com/logo.png',
-    '@id': 'https://fujita-kc.com',
-    url: 'https://fujita-kc.com',
+    image: 'https://www.fujita-kc.com/logo.png',
+    '@id': 'https://www.fujita-kc.com',
+    url: 'https://www.fujita-kc.com',
     telephone: '090-6794-4340',
     address: {
       '@type': 'PostalAddress',

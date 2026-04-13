@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://fujita-kc.com';
+  const baseUrl = 'https://www.fujita-kc.com';
   const dir = path.join(process.cwd(), 'src', 'app');
   
   if (!fs.existsSync(dir)) return [];
