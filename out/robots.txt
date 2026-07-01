@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://fujita-kc.com/sitemap.xml
+Sitemap: https://www.fujita-kc.com/sitemap.xml

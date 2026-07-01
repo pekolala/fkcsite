@@ -4,7 +4,8 @@ import type { Metadata } from 'next';
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const { slug } = params;
-  const filePath = path.join(process.cwd(), 'src', 'app', `${slug}.source.html`);
+  const cleanSlug = slug.endsWith('.html') ? slug.slice(0, -5) : slug;
+  const filePath = path.join(process.cwd(), 'src', 'app', `${cleanSlug}.source.html`);
   
   if (!fs.existsSync(filePath)) {
     return { title: 'Page Not Found' };
@@ -21,12 +22,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: `${title} | フジタ家庭教師センター`,
     description,
     alternates: {
-      canonical: `https://www.fujita-kc.com/${slug}`,
+      canonical: `https://www.fujita-kc.com/${cleanSlug}`,
     },
     openGraph: {
       title: `${title} | フジタ家庭教師センター`,
       description,
-      url: `https://www.fujita-kc.com/${slug}`,
+      url: `https://www.fujita-kc.com/${cleanSlug}`,
       siteName: 'フジタ家庭教師センター',
       images: [
         {
@@ -60,7 +61,8 @@ export async function generateStaticParams() {
 
 export default async function Page({ params }: { params: { slug: string } }) {
   const { slug } = params;
-  const filePath = path.join(process.cwd(), 'src', 'app', `${slug}.source.html`);
+  const cleanSlug = slug.endsWith('.html') ? slug.slice(0, -5) : slug;
+  const filePath = path.join(process.cwd(), 'src', 'app', `${cleanSlug}.source.html`);
   
   if (!fs.existsSync(filePath)) {
     return <div>Page not found</div>;
