@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'フジタ家庭教師センター',
     images: [
       {
-        url: 'https://www.fujita-kc.com/logo.png',
+        url: 'https://www.fujita-kc.com/logo.webp',
         width: 1200,
         height: 630,
       },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師',
     description: '三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。',
-    images: ['https://www.fujita-kc.com/logo.png'],
+    images: ['https://www.fujita-kc.com/logo.webp'],
   },
   verification: {
     google: 'xnIKK9RpddKv4GTgciPJwkPjyIlMyYcIKXmT2ntu8V4',
@@ -46,7 +46,7 @@ export default function Page() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'フジタ家庭教師センター',
-    image: 'https://www.fujita-kc.com/logo.png',
+    image: 'https://www.fujita-kc.com/logo.webp',
     '@id': 'https://www.fujita-kc.com',
     url: 'https://www.fujita-kc.com',
     telephone: '090-6794-4340',

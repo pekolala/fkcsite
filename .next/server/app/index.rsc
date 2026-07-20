@@ -1,12 +1,12 @@
 4:I[9275,[],""]
 5:I[1343,[],""]
-2:T195df,
+2:T195ed,
 
     <header
         style="height: auto; min-height: 80px; padding: 12px 0; background-color: #fdf2e9; border-bottom: 2px solid var(--primary-color);">
         <div class="container header-content" style="flex-direction: column; justify-content: center; gap: 8px;">
             <a href="#" class="logo">
-                <img src="logo.png" alt="FKCロゴ" style="height: 40px; margin-right: 4px;" fetchpriority="high">
+                <img src="logo.webp" alt="FKCロゴ" style="height: 40px; margin-right: 4px;" fetchpriority="high">
                 <span class="logo-text"
                     style="font-size: 1.6rem; letter-spacing: 0; white-space: normal; text-align: center; line-height: 1.2; overflow: visible;">フジタ家庭教師センター</span>
             </a>
@@ -34,9 +34,9 @@
             <div class="container hero-flex">
                 <div class="hero-content" style="width: 100%; max-width: 800px; position: relative;">
                     <div class="hero-slideshow">
-                        <img src="slide2.png" class="hero-slide slide-base" alt="塾に通っても成績が上がらないお子様へ"
+                        <img src="slide2.webp" class="hero-slide slide-base" alt="塾に通っても成績が上がらないお子様へ"
                             fetchpriority="high">
-                        <img src="slide1.png" class="hero-slide slide-overlay" alt="勉強のやり方がわかるとテストの点は上がります"
+                        <img src="slide1.webp" class="hero-slide slide-overlay" alt="勉強のやり方がわかるとテストの点は上がります"
                             fetchpriority="high">
 
                         <!-- 画像に重ねるコンテンツ -->
@@ -319,7 +319,7 @@
         <section id="testimonials" style="background-color: var(--white);" class="reveal">
             <div class="container">
                 <div style="margin-bottom: 40px; text-align: center;">
-                    <img src="parent_student.jpg" alt="保護者様・生徒の声のイメージ"
+                    <img src="parent_student.webp" alt="保護者様・生徒の声のイメージ"
                         style="width: 100%; max-width: 700px; height: auto; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); margin: 0 auto; display: block;"
                         loading="lazy">
                 </div>
@@ -511,7 +511,7 @@
                 <div class="teacher-grid">
                     <div class="teacher-card">
                         <div class="teacher-image">
-                            <img src="ishizuki.png" alt="石附 先生" loading="lazy">
+                            <img src="ishizuki.webp" alt="石附 先生" loading="lazy">
                         </div>
                         <div class="teacher-tag">数学・理科担当</div>
                         <h3 class="teacher-name">石附 先生</h3>
@@ -538,7 +538,7 @@
 
                     <div class="teacher-card">
                         <div class="teacher-image">
-                            <img src="sato.png" alt="佐藤 先生" loading="lazy">
+                            <img src="sato.webp" alt="佐藤 先生" loading="lazy">
                         </div>
                         <div class="teacher-tag">中学生指導中心</div>
                         <h3 class="teacher-name">佐藤 先生</h3>
@@ -675,7 +675,7 @@
         <section id="contact" class="reveal" style="background-color: var(--bg-color);">
             <div class="container" style="text-align: center;">
                 <div style="margin-bottom: 40px; text-align: center;">
-                    <img src="trial_study.jpg" alt="無料体験授業のイメージ"
+                    <img src="trial_study.webp" alt="無料体験授業のイメージ"
                         style="width: 100%; max-width: 700px; height: auto; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); margin: 0 auto; display: block;"
                         loading="lazy">
                 </div>
@@ -851,7 +851,7 @@
                     地域密着の<br>確かな合格実績
                 </h2>
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 40px;">
-                    <img src="success_new.png" alt="第一志望合格への実績"
+                    <img src="success_new.webp" alt="第一志望合格への実績"
                         style="width: 100%; max-width: 400px; border-radius: 20px; clip-path: inset(0 0 12% 0);"
                         loading="lazy">
 
@@ -928,7 +928,7 @@
                 </h2>
                 <div class="target-list">
                     <div class="target-item with-bg" style="min-height: 250px; padding: 0;">
-                        <div class="target-item-bg" style="background-image: url('hs.png');"></div>
+                        <div class="target-item-bg" style="background-image: url('hs.webp');"></div>
                         <div class="target-overlay">
                             <div class="target-header">
                                 <span class="target-name">小学生</span>
@@ -977,7 +977,7 @@
                         </div>
                     </div>
                     <div class="target-item with-bg" style="min-height: 250px; padding: 0;">
-                        <div class="target-item-bg" style="background-image: url('jh.png');"></div>
+                        <div class="target-item-bg" style="background-image: url('jh.webp');"></div>
                         <div class="target-overlay">
                             <div class="target-header">
                                 <span class="target-name">中学生</span>
@@ -1052,7 +1052,7 @@
                         </div>
                     </div>
                     <div class="target-item with-bg" style="min-height: 250px; padding: 0;">
-                        <div class="target-item-bg" style="background-image: url('elem.png');"></div>
+                        <div class="target-item-bg" style="background-image: url('elem.webp');"></div>
                         <div class="target-overlay">
                             <div class="target-header">
                                 <span class="target-name">高校生</span>
@@ -1123,7 +1123,7 @@
                         </div>
                     </div>
                     <div class="target-item with-bg" style="min-height: 250px; padding: 0;">
-                        <div class="target-item-bg" style="background-image: url('ronin.jpg');"></div>
+                        <div class="target-item-bg" style="background-image: url('ronin.webp');"></div>
                         <div class="target-overlay">
                             <div class="target-header">
                                 <span class="target-name">既卒生</span>
@@ -1188,7 +1188,7 @@
                         </div>
                     </div>
                     <div class="target-item with-bg" style="min-height: 250px; padding: 0;">
-                        <div class="target-item-bg" style="background-image: url('futoko.jpg');"></div>
+                        <div class="target-item-bg" style="background-image: url('futoko.webp');"></div>
                         <div class="target-overlay">
                             <div class="target-header">
                                 <span class="target-name">不登校生</span>
@@ -1281,7 +1281,7 @@
                 <div class="message-content">
                     <div style="display: flex; flex-direction: column; align-items: center;">
                         <div class="message-img-wrapper">
-                            <img src="rep_id_final.png" alt="代表：フジタ" class="message-img" loading="lazy">
+                            <img src="rep_id_final.webp" alt="代表：フジタ" class="message-img" loading="lazy">
                         </div>
                         <div style="margin-top: 15px; font-weight: 700; font-size: 1.15rem; color: var(--text-color);">
                             代表　藤田
@@ -2923,6 +2923,6 @@
                 padding-bottom: 48px;
             }
         }
-    0:["JKizArHANvSw4l5s9UFfc",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},[["$L1",[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"フジタ家庭教師センター\",\"image\":\"https://www.fujita-kc.com/logo.png\",\"@id\":\"https://www.fujita-kc.com\",\"url\":\"https://www.fujita-kc.com\",\"telephone\":\"090-6794-4340\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"東裏館2-12-14\",\"addressLocality\":\"三条市\",\"addressRegion\":\"新潟県\",\"postalCode\":\"955-0081\",\"addressCountry\":\"JP\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":35.6186,\"longitude\":138.9221},\"openingHoursSpecification\":{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"22:00\"},\"sameAs\":[]}"}}],["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]]],null],null]},[["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap","rel":"stylesheet"}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"\n          @media (max-width: 768px) {\n            .column-container {\n              padding-left: 15px !important;\n              padding-right: 15px !important;\n            }\n          }\n        "}}]]}],["$","body",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[null,"$L6"]]]]
-6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師"}],["$","meta","3",{"name":"description","content":"三条・燕・加茂エリア専門のプロ家庭教師。小学生から高校生、既卒、不登校まで対応。志望校合格と成績アップを全力サポート。"}],["$","link","4",{"rel":"canonical","href":"https://www.fujita-kc.com"}],["$","meta","5",{"name":"google-site-verification","content":"xnIKK9RpddKv4GTgciPJwkPjyIlMyYcIKXmT2ntu8V4"}],["$","meta","6",{"property":"og:title","content":"フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師"}],["$","meta","7",{"property":"og:description","content":"三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。"}],["$","meta","8",{"property":"og:url","content":"https://www.fujita-kc.com"}],["$","meta","9",{"property":"og:site_name","content":"フジタ家庭教師センター"}],["$","meta","10",{"property":"og:locale","content":"ja_JP"}],["$","meta","11",{"property":"og:image","content":"https://www.fujita-kc.com/logo.png"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:type","content":"website"}],["$","meta","15",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","16",{"name":"twitter:title","content":"フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師"}],["$","meta","17",{"name":"twitter:description","content":"三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。"}],["$","meta","18",{"name":"twitter:image","content":"https://www.fujita-kc.com/logo.png"}]]
+    0:["t2YEeb1lq0NfxHqpn9G0J",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},[["$L1",[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"フジタ家庭教師センター\",\"image\":\"https://www.fujita-kc.com/logo.webp\",\"@id\":\"https://www.fujita-kc.com\",\"url\":\"https://www.fujita-kc.com\",\"telephone\":\"090-6794-4340\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"東裏館2-12-14\",\"addressLocality\":\"三条市\",\"addressRegion\":\"新潟県\",\"postalCode\":\"955-0081\",\"addressCountry\":\"JP\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":35.6186,\"longitude\":138.9221},\"openingHoursSpecification\":{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"22:00\"},\"sameAs\":[]}"}}],["$","main",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]]],null],null]},[["$","html",null,{"lang":"ja","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap","rel":"stylesheet"}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$3"}}],["$","style",null,{"dangerouslySetInnerHTML":{"__html":"\n          @media (max-width: 768px) {\n            .column-container {\n              padding-left: 15px !important;\n              padding-right: 15px !important;\n            }\n          }\n        "}}]]}],["$","body",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]]}],null],null],[null,"$L6"]]]]
+6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師"}],["$","meta","3",{"name":"description","content":"三条・燕・加茂エリア専門のプロ家庭教師。小学生から高校生、既卒、不登校まで対応。志望校合格と成績アップを全力サポート。"}],["$","link","4",{"rel":"canonical","href":"https://www.fujita-kc.com"}],["$","meta","5",{"name":"google-site-verification","content":"xnIKK9RpddKv4GTgciPJwkPjyIlMyYcIKXmT2ntu8V4"}],["$","meta","6",{"property":"og:title","content":"フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師"}],["$","meta","7",{"property":"og:description","content":"三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。"}],["$","meta","8",{"property":"og:url","content":"https://www.fujita-kc.com"}],["$","meta","9",{"property":"og:site_name","content":"フジタ家庭教師センター"}],["$","meta","10",{"property":"og:locale","content":"ja_JP"}],["$","meta","11",{"property":"og:image","content":"https://www.fujita-kc.com/logo.webp"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],["$","meta","14",{"property":"og:type","content":"website"}],["$","meta","15",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","16",{"name":"twitter:title","content":"フジタ家庭教師センター | 三条・燕・加茂エリア専門 プロ家庭教師"}],["$","meta","17",{"name":"twitter:description","content":"三条・燕・加茂エリア専門のプロ家庭教師。志望校合格と成績アップを全力サポート。"}],["$","meta","18",{"name":"twitter:image","content":"https://www.fujita-kc.com/logo.webp"}]]
 1:null

@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       siteName: 'フジタ家庭教師センター',
       images: [
         {
-          url: 'https://www.fujita-kc.com/logo.png',
+          url: 'https://www.fujita-kc.com/logo.webp',
           width: 1200,
           height: 630,
         },
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       card: 'summary_large_image',
       title: `${title} | フジタ家庭教師センター`,
       description,
-      images: ['https://www.fujita-kc.com/logo.png'],
+      images: ['https://www.fujita-kc.com/logo.webp'],
     },
   };
 }
