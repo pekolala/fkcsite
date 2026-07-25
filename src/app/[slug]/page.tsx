@@ -24,6 +24,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     alternates: {
       canonical: `https://www.fujita-kc.com/${cleanSlug}`,
     },
+    icons: {
+      icon: '/favicon.png',
+      shortcut: '/favicon.png',
+      apple: '/apple-touch-icon.png',
+    },
     openGraph: {
       title: `${title} | フジタ家庭教師センター`,
       description,
@@ -31,7 +36,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       siteName: 'フジタ家庭教師センター',
       images: [
         {
-          url: 'https://www.fujita-kc.com/logo.webp',
+          url: 'https://www.fujita-kc.com/ogp.webp',
           width: 1200,
           height: 630,
         },
@@ -43,7 +48,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       card: 'summary_large_image',
       title: `${title} | フジタ家庭教師センター`,
       description,
-      images: ['https://www.fujita-kc.com/logo.webp'],
+      images: ['https://www.fujita-kc.com/ogp.webp'],
     },
   };
 }
